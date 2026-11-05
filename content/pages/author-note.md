@@ -9,7 +9,7 @@ This plan is meant for a person in the first years of following Jesus. It walks 
 
 ## Where I Am Coming From
 
-I believe the Bible is the word of God, true and trustworthy from beginning to end. I believe in one God in three persons, in the full deity and full humanity of Jesus, in his death in the place of sinners and his bodily resurrection, and in salvation by grace alone through faith alone in Christ alone. My reading of scripture leans toward the sovereignty of God in salvation and the sufficiency of Christ, and I do not want to hide that.
+I believe the Bible is the word of God, true and trustworthy from beginning to end. I believe in one God in three persons, in the full deity and full humanity of Jesus, in his death in the place of sinners and his bodily resurrection, and in salvation by grace alone through faith alone in Christ alone. My reading of Scripture leans toward the sovereignty of God in salvation and the sufficiency of Christ, and I do not want to hide that.
 
 The framework behind the plan is what some call progressive covenantalism. Big terms like that can sometimes overcomplicate things, but I think the idea is fairly simple. The Bible tells one story, and God tells it through a series of covenants: with creation and Adam, with Noah, with Abraham, with Israel at Sinai, with David, and finally the new covenant in Christ. Each covenant builds on the one before it and points ahead to the next. Jesus fulfills them all.
 
@@ -25,7 +25,7 @@ A plan like this makes hundreds of choices on the reader’s behalf. Most are in
 
 **The story is organized by covenant.** The units follow the covenants, not the order of the books in your Bible. That is a way of reading the Bible, not the only way.
 
-**The reading order is a decision.** The plan is not in canonical order. Job sits between Abraham and the Exodus, following the common view that its setting is patriarchal, though the book does not date itself and scholars differ. The Psalms are woven through the whole plan. The Wisdom books come after David and Solomon. The Gospels are read in the order Matthew, Luke, John, and Mark. Hebrews comes before the General Epistles and Revelation. Other orders are reasonable, and where the date or authorship of a book is debated, the Books of the Bible section of Appendix I says so.
+**The reading order is a decision.** The plan is not in canonical order. Job sits between Abraham and the Exodus, following the common view that its setting is patriarchal, though the book does not date itself and scholars differ. The Psalms are woven through the whole plan. The Wisdom books come after David and Solomon. The Gospels are read in the order Matthew, Luke, John, and Mark. Hebrews comes before the General Epistles and Revelation. Other orders are reasonable, and where the date or authorship of a book is debated, the Books of the Bible section of Appendix II says so.
 
 **Christ is the center of every part.** Jesus taught that the Law, the Prophets, and the Psalms all speak of him (Luke 24:44). I have read the Old Testament that way throughout. Some readers will feel that I find Christ in places where the original author may not have seen him clearly. I have tried to lean on how the New Testament itself reads the Old, and to be modest where it does not.
 
