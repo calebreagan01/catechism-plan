@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { books, u } from '../../lib/data.js';
+const sections = [...new Set(books.map((b) => b.section))];
+---
+<Base title="The Books of the Bible" description="Author, date, setting, theme, and an outline for each of the 66 books.">
+  <div class="wrap">
+    <div class="page-head"><div class="label">Reference</div><h1>The Books of the Bible</h1><p class="lede">A starting point and an outline for each of the 66 books</p><div class="orn">&#10086;</div></div>
+    <div class="narrow prose"><p>Each entry gives a traditional, widely held starting point. Where scholars disagree about authorship or date, the entry says so briefly and does not try to settle the question. Dates are approximate. The outline follows the structure of the book itself and is not tied to the reading plan, but each entry also shows the days in this plan that read the book.</p></div>
+    <div class="chips no-print" style="justify-content:center;margin:1.5rem 0">{sections.map((s, i) => <a class="chip" href={`#s${i}`}>{s}</a>)}</div>
+    {sections.map((s, i) => (
+      <section id={`s${i}`} style="margin-top:2.6rem">
+        <h2 class="center" style="margin-bottom:1.2rem">{s}</h2>
+        <div class="grid g3">
+          {books.filter((b) => b.section === s).map((b) => (
+            <a class="tile" href={u(`books/${b.slug}/`)}><div class="t">{b.name}</div><div class="d" style="font-style:italic">{b.tagline}</div><div class="tag" style="margin-top:auto">{b.days.length ? `${b.days.length} days in the plan` : 'Not read in this plan'}</div></a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

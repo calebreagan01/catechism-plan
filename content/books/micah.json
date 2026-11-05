@@ -1,0 +1,76 @@
+{
+  "order": 33,
+  "name": "Micah",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "Justice, mercy, and a ruler from Bethlehem",
+  "author": "Micah.",
+  "date": "About 735 to 700 BC.",
+  "setting": "Judah and Israel under Assyrian threat.",
+  "genre": "Prophecy.",
+  "theme": "God judges injustice and promises a shepherd king from Bethlehem.",
+  "keyVerse": "Micah 6:8",
+  "outline": [
+    {
+      "ref": "1:1-3:12",
+      "label": "First cycle: judgment",
+      "level": 0
+    },
+    {
+      "ref": "1:1-16",
+      "label": "The LORD comes down",
+      "level": 1
+    },
+    {
+      "ref": "2:1-13",
+      "label": "Greed and the remnant",
+      "level": 1
+    },
+    {
+      "ref": "3:1-12",
+      "label": "Rulers and prophets rebuked",
+      "level": 1
+    },
+    {
+      "ref": "4:1-5:15",
+      "label": "Second cycle: hope",
+      "level": 0
+    },
+    {
+      "ref": "4:1-8",
+      "label": "The mountain of the LORD",
+      "level": 1
+    },
+    {
+      "ref": "4:9-5:1",
+      "label": "Exile and rescue",
+      "level": 1
+    },
+    {
+      "ref": "5:2-15",
+      "label": "The ruler from Bethlehem",
+      "level": 1
+    },
+    {
+      "ref": "6:1-7:20",
+      "label": "Third cycle: God’s case and pardon",
+      "level": 0
+    },
+    {
+      "ref": "6:1-8",
+      "label": "What does the LORD require",
+      "level": 1
+    },
+    {
+      "ref": "6:9-7:6",
+      "label": "Judgment and lament",
+      "level": 1
+    },
+    {
+      "ref": "7:7-20",
+      "label": "Who is a God like you",
+      "level": 1
+    }
+  ],
+  "christInBook": "Micah 5:2 names Bethlehem as the birthplace of the ruler whose origin is from of old, and the chief priests quoted it to Herod (Matthew 2:5-6). The shepherd king is Jesus.",
+  "howToRead": "Micah has three cycles, each beginning with “Hear” and each moving from judgment to hope. Notice the famous summary in 6:8."
+}

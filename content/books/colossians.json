@@ -1,0 +1,76 @@
+{
+  "order": 51,
+  "name": "Colossians",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Christ is supreme",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 60 to 62, from prison.",
+  "setting": "Written to a church facing false teaching.",
+  "genre": "Letter.",
+  "theme": "Christ is sufficient and supreme over all things.",
+  "keyVerse": "Colossians 1:15-17",
+  "outline": [
+    {
+      "ref": "1:1-14",
+      "label": "Greeting and prayer",
+      "level": 0
+    },
+    {
+      "ref": "1:1-8",
+      "label": "Thanksgiving",
+      "level": 1
+    },
+    {
+      "ref": "1:9-14",
+      "label": "Prayer for knowledge",
+      "level": 1
+    },
+    {
+      "ref": "1:15-2:23",
+      "label": "The supremacy of Christ",
+      "level": 0
+    },
+    {
+      "ref": "1:15-23",
+      "label": "Christ preeminent",
+      "level": 1
+    },
+    {
+      "ref": "1:24-2:5",
+      "label": "Paul’s labor",
+      "level": 1
+    },
+    {
+      "ref": "2:6-23",
+      "label": "Warnings against empty philosophy",
+      "level": 1
+    },
+    {
+      "ref": "3:1-4:6",
+      "label": "New life in Christ",
+      "level": 0
+    },
+    {
+      "ref": "3:1-17",
+      "label": "Put off the old and put on the new",
+      "level": 1
+    },
+    {
+      "ref": "3:18-4:1",
+      "label": "Households",
+      "level": 1
+    },
+    {
+      "ref": "4:2-6",
+      "label": "Prayer and wise conduct",
+      "level": 1
+    },
+    {
+      "ref": "4:7-18",
+      "label": "Final greetings",
+      "level": 0
+    }
+  ],
+  "christInBook": "Colossians 1:15-20 describes Christ as the image of the invisible God, the creator and sustainer of all things, and the one who reconciles all things through the blood of his cross.",
+  "howToRead": "Colossians answers a false teaching with a large picture of Christ. Notice the argument: because Christ is supreme and sufficient, you were raised with him, so live that way."
+}

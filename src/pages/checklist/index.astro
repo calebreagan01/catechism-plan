@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import { days, units, unitById, byDay, YEAR_NAMES, u, dayUrl, dayTitle, shortTheme, stats } from '../../lib/data.js';
+import { clean } from '../../lib/text.js';
+const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const label = (d) => d.type === 'rest' ? 'Sabbath rest' : d.type === 'review_rest' ? 'Unit review and Sabbath' : d.type === 'review' ? 'Unit review' : d.type === 'doctrinal' ? `Doctrine: ${shortTheme(d)}` : dayTitle(d);
+const rows = [];
+const seen = new Set(); let yr = 0;
+for (let w = 1; w <= stats.weeks; w++) {
+  const first = (w - 1) * 7 + 1;
+  const heads = [];
+  for (let n = first; n < first + 7 && n <= stats.total; n++) {
+    const d = byDay(n);
+    if (!seen.has(d.unit)) { seen.add(d.unit); const x = unitById(d.unit); heads.push((x.year !== yr ? `Year ${x.year}: ${YEAR_NAMES[x.year]} \u00b7 ` : '') + `Unit ${x.id}: ${x.title} (begins Day ${n})`); yr = x.year; }
+  }
+  rows.push({ w, first, heads, cells: Array.from({ length: 7 }, (_, i) => byDay(first + i) || null) });
+}
+---
+<Base title="Weekly Checklist" description="All 129 weeks, Sunday through Saturday." wide>
+  <div class="wrap wide checklist-print">
+    <div class="page-head"><div class="label">Reference</div><h1>Weekly Checklist</h1><p class="lede">All {stats.weeks} weeks, Sunday through Saturday. Check each day as you finish it.</p><div class="orn">&#10086;</div>
+      <p class="muted narrow" style="margin:0 auto">Six days of reading, then a Sabbath rest on Saturday. Begin on any Sunday. A unit can start in the middle of a week, so a row may hold the end of one unit and the start of the next. Your checks are saved in this browser, and you can print this page.</p>
+      <div class="field no-print" style="justify-content:center;margin-top:1rem"><button class="btn" type="button" onclick="window.print()">Print this checklist</button></div>
+    </div>
+    <div class="scroll-x">
+      <table class="ck">
+        <thead><tr><th>Week</th>{DOW.map((d) => <th>{d}</th>)}<th>Done</th></tr></thead>
+        <tbody>
+          {rows.map((r) => (<>
+            {r.heads.map((h) => <tr><td class="u" colspan="9">{h}</td></tr>)}
+            <tr>
+              <td class="w">{r.w}</td>
+              {r.cells.map((d) => d ? (
+                <td class={d.type === 'rest' || d.type === 'review_rest' ? 'rest' : ''}><label><input type="checkbox" data-ck={d.day} /><span><a class="dn" href={dayUrl(d.day)}>Day {d.day}</a>{label(d)}</span></label></td>
+              ) : <td></td>)}
+              <td class="w" data-week={r.first} aria-label="Week finished"></td>
+            </tr>
+          </>))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

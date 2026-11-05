@@ -1,0 +1,71 @@
+{
+  "order": 60,
+  "name": "1 Peter",
+  "section": "New Testament: General Letters and Revelation",
+  "tagline": "Hope in suffering",
+  "author": "The apostle Peter.",
+  "date": "Usually dated about AD 62 to 65.",
+  "setting": "Written to scattered believers facing hostility.",
+  "genre": "Letter.",
+  "theme": "Christians live as exiles with a living hope.",
+  "keyVerse": "1 Peter 1:3",
+  "outline": [
+    {
+      "ref": "1:1-2:10",
+      "label": "A living hope and a holy people",
+      "level": 0
+    },
+    {
+      "ref": "1:1-12",
+      "label": "Born again to a living hope",
+      "level": 1
+    },
+    {
+      "ref": "1:13-2:3",
+      "label": "Be holy",
+      "level": 1
+    },
+    {
+      "ref": "2:4-10",
+      "label": "A chosen race and a royal priesthood",
+      "level": 1
+    },
+    {
+      "ref": "2:11-3:12",
+      "label": "Living honorably",
+      "level": 0
+    },
+    {
+      "ref": "2:11-25",
+      "label": "Submission and the example of Christ",
+      "level": 1
+    },
+    {
+      "ref": "3:1-12",
+      "label": "Wives, husbands, and all",
+      "level": 1
+    },
+    {
+      "ref": "3:13-5:14",
+      "label": "Suffering and humility",
+      "level": 0
+    },
+    {
+      "ref": "3:13-22",
+      "label": "Suffering for righteousness",
+      "level": 1
+    },
+    {
+      "ref": "4:1-19",
+      "label": "Living for God",
+      "level": 1
+    },
+    {
+      "ref": "5:1-14",
+      "label": "Elders, humility, and greetings",
+      "level": 1
+    }
+  ],
+  "christInBook": "Peter says that Christ suffered for us, leaving us an example (2:21), bore our sins in his body on the tree (2:24), and that we are redeemed with the precious blood of Christ, like that of a lamb without blemish (1:18-19).",
+  "howToRead": "1 Peter is addressed to suffering Christians. Notice how he links suffering and glory, and how he calls the church “exiles” and “a holy priesthood.”"
+}

@@ -1,0 +1,76 @@
+{
+  "order": 48,
+  "name": "Galatians",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Freedom in the gospel",
+  "author": "The apostle Paul.",
+  "date": "Dated between about AD 48 and 55, depending on where the churches were located.",
+  "setting": "Paul writes to churches being pressured to add the law to the gospel.",
+  "genre": "Letter.",
+  "theme": "We are justified by faith in Christ, not by works of the law.",
+  "keyVerse": "Galatians 2:20",
+  "outline": [
+    {
+      "ref": "1:1-2:21",
+      "label": "Paul defends the gospel",
+      "level": 0
+    },
+    {
+      "ref": "1:1-10",
+      "label": "No other gospel",
+      "level": 1
+    },
+    {
+      "ref": "1:11-2:10",
+      "label": "Paul’s call and the Jerusalem leaders",
+      "level": 1
+    },
+    {
+      "ref": "2:11-21",
+      "label": "Paul opposes Peter and justification by faith",
+      "level": 1
+    },
+    {
+      "ref": "3:1-4:31",
+      "label": "Faith and the law",
+      "level": 0
+    },
+    {
+      "ref": "3:1-14",
+      "label": "Abraham and the blessing",
+      "level": 1
+    },
+    {
+      "ref": "3:15-29",
+      "label": "The purpose of the law",
+      "level": 1
+    },
+    {
+      "ref": "4:1-31",
+      "label": "Sons and heirs",
+      "level": 1
+    },
+    {
+      "ref": "5:1-6:18",
+      "label": "Freedom and the Spirit",
+      "level": 0
+    },
+    {
+      "ref": "5:1-15",
+      "label": "Stand firm in freedom",
+      "level": 1
+    },
+    {
+      "ref": "5:16-26",
+      "label": "The fruit of the Spirit",
+      "level": 1
+    },
+    {
+      "ref": "6:1-18",
+      "label": "Bear one another’s burdens",
+      "level": 1
+    }
+  ],
+  "christInBook": "Paul says that Christ redeemed us from the curse of the law by becoming a curse for us (3:13), and that he now lives in believers (2:20). The central message is that Christ alone is enough.",
+  "howToRead": "Galatians is a letter of urgency. Paul does not begin with thanksgiving. Notice the movement from the defense of the gospel to its meaning to its fruit in daily life."
+}

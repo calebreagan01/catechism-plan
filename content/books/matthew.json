@@ -1,0 +1,71 @@
+{
+  "order": 40,
+  "name": "Matthew",
+  "section": "New Testament: Gospels and Acts",
+  "tagline": "Jesus, the promised king",
+  "author": "Traditionally the apostle Matthew. The book itself is anonymous.",
+  "date": "Often dated between about AD 60 and 85.",
+  "setting": "Written with a strong Jewish background, showing Jesus as the fulfillment of the Old Testament.",
+  "genre": "Gospel: a narrative of Jesus’ life with five major teaching sections.",
+  "theme": "Jesus is the Messiah and king who brings the kingdom of heaven.",
+  "keyVerse": "Matthew 16:16",
+  "outline": [
+    {
+      "ref": "1:1-4:11",
+      "label": "Birth and preparation",
+      "level": 0
+    },
+    {
+      "ref": "4:12-7:29",
+      "label": "The kingdom proclaimed",
+      "level": 0
+    },
+    {
+      "ref": "8:1-10:42",
+      "label": "The kingdom in power",
+      "level": 0
+    },
+    {
+      "ref": "11:1-13:52",
+      "label": "Responses to the kingdom",
+      "level": 0
+    },
+    {
+      "ref": "11:1-12:50",
+      "label": "Rejection and growing opposition",
+      "level": 1
+    },
+    {
+      "ref": "13:53-18:35",
+      "label": "The church and the cross approaching",
+      "level": 0
+    },
+    {
+      "ref": "13:53-16:12",
+      "label": "Withdrawal and feeding the multitudes",
+      "level": 1
+    },
+    {
+      "ref": "19:1-25:46",
+      "label": "Jerusalem",
+      "level": 0
+    },
+    {
+      "ref": "19:1-20:34",
+      "label": "Journey to Jerusalem",
+      "level": 1
+    },
+    {
+      "ref": "26:1-28:20",
+      "label": "Passion and resurrection",
+      "level": 0
+    },
+    {
+      "ref": "26:1-27:66",
+      "label": "Last supper, trial, and crucifixion",
+      "level": 1
+    }
+  ],
+  "christInBook": "Matthew presents Jesus as the promised Messiah, the son of David and son of Abraham, who fulfills the Law and the Prophets. He is Immanuel, “God with us” (1:23), and he ends with the promise, “I am with you always” (28:20).",
+  "howToRead": "Matthew gathers Jesus’ teaching into five great discourses, each ending with a phrase such as “when Jesus had finished these sayings.” Watch for the phrase “this was to fulfill what was spoken by the prophet.”"
+}

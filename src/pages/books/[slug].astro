@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import { books, days, byDay, u, dayUrl, unitById } from '../../lib/data.js';
+import { clean, paras } from '../../lib/text.js';
+export function getStaticPaths() { return books.map((b, i) => ({ params: { slug: b.slug }, props: { b, i } })); }
+const { b, i } = Astro.props;
+const prev = books[i - 1], next = books[i + 1];
+const dd = b.days.map((n) => byDay(n));
+const byUnit = [];
+for (const d of dd) { let g = byUnit.find((x) => x.u === d.unit); if (!g) { g = { u: d.unit, days: [] }; byUnit.push(g); } g.days.push(d); }
+---
+<Base title={b.name} description={`${b.name}: ${b.tagline}`}>
+  <div class="wrap">
+    <div class="page-head"><div class="label">{b.section}</div><h1>{b.name}</h1><p class="lede">{b.tagline}</p><div class="orn">&#10086;</div></div>
+    <div class="narrow">
+      <dl class="facts">
+        <dt>Author</dt><dd>{clean(b.author)}</dd>
+        <dt>Date</dt><dd>{clean(b.date)}</dd>
+        <dt>Setting</dt><dd>{clean(b.setting)}</dd>
+        <dt>Genre</dt><dd>{clean(b.genre)}</dd>
+        <dt>Theme</dt><dd>{clean(b.theme)}</dd>
+        <dt>Key verse</dt><dd>{clean(b.keyVerse)}</dd>
+        <dt>In this plan</dt>
+        <dd>
+          {byUnit.length === 0 && 'This book is not read in the plan.'}
+          {byUnit.map((g, k) => <><a href={u(`unit/${g.u}/`)}>Unit {g.u}</a>{`: `}{g.days.map((d, j) => <><a href={dayUrl(d.day)} data-day={d.day}>Day {d.day}</a>{j < g.days.length - 1 ? ', ' : ''}</>)}{k < byUnit.length - 1 ? <br /> : ''}</>)}
+        </dd>
+      </dl>
+      {b.christInBook && <div class="prose"><h2>Christ in This Book</h2>{paras(b.christInBook).map((p) => <p>{p}</p>)}</div>}
+      {b.howToRead && <div class="prose"><h2>How to Read It</h2>{paras(b.howToRead).map((p) => <p>{p}</p>)}</div>}
+      <div class="prose"><h2>Literary Outline</h2></div>
+      <div class="outline">
+        {b.outline.map((o) => <div class={`o l${o.level ? 1 : 0}`}><span class="r">{clean(o.ref)}</span><span class="t">{clean(o.label)}</span></div>)}
+      </div>
+    </div>
+    <div class="day-nav">
+      {prev ? <a class="btn" href={u(`books/${prev.slug}/`)}>&#8592; {prev.name}</a> : <span></span>}
+      <a class="btn" href={u('books/')}>All books</a>
+      {next ? <a class="btn" href={u(`books/${next.slug}/`)}>{next.name} &#8594;</a> : <span></span>}
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,71 @@
+{
+  "order": 42,
+  "name": "Luke",
+  "section": "New Testament: Gospels and Acts",
+  "tagline": "Jesus, savior for all people",
+  "author": "Traditionally Luke, a physician and companion of Paul. The book itself is anonymous.",
+  "date": "Often dated between about AD 60 and 85.",
+  "setting": "Addressed to Theophilus, and first volume of a two-part work with Acts.",
+  "genre": "Gospel, with careful historical narrative.",
+  "theme": "Jesus came to seek and to save the lost, including the poor and outsiders.",
+  "keyVerse": "Luke 19:10",
+  "outline": [
+    {
+      "ref": "1:1-2:52",
+      "label": "Birth and childhood",
+      "level": 0
+    },
+    {
+      "ref": "3:1-4:13",
+      "label": "Preparation",
+      "level": 0
+    },
+    {
+      "ref": "3:1-38",
+      "label": "John, baptism, and genealogy",
+      "level": 1
+    },
+    {
+      "ref": "4:14-9:50",
+      "label": "Ministry in Galilee",
+      "level": 0
+    },
+    {
+      "ref": "4:14-5:39",
+      "label": "Nazareth and the first disciples",
+      "level": 1
+    },
+    {
+      "ref": "9:51-19:27",
+      "label": "Journey to Jerusalem",
+      "level": 0
+    },
+    {
+      "ref": "9:51-13:21",
+      "label": "Teaching and mission",
+      "level": 1
+    },
+    {
+      "ref": "19:28-23:56",
+      "label": "Final week and cross",
+      "level": 0
+    },
+    {
+      "ref": "19:28-21:38",
+      "label": "Entry and teaching",
+      "level": 1
+    },
+    {
+      "ref": "24:1-53",
+      "label": "Resurrection and ascension",
+      "level": 0
+    },
+    {
+      "ref": "24:1-35",
+      "label": "The empty tomb and the Emmaus road",
+      "level": 1
+    }
+  ],
+  "christInBook": "Luke shows Jesus as the Savior of the world who seeks and saves the lost (19:10). Only Luke includes the parables of the good Samaritan, the lost son, and the rich man and Lazarus, and he ends on the road to Emmaus, where Jesus explains the Scriptures about himself.",
+  "howToRead": "Luke is the first of two volumes, with Acts. Watch for his interest in the poor, women, outsiders, prayer, and the Holy Spirit. Notice the long travel section from 9:51."
+}

@@ -1,0 +1,76 @@
+{
+  "order": 6,
+  "name": "Joshua",
+  "section": "Old Testament: History",
+  "tagline": "Entering the promised land",
+  "author": "Not named in the text. Tradition connects it with Joshua, with possible later editing.",
+  "date": "Events are often placed in the late 1400s or 1200s BC.",
+  "setting": "Israel under Joshua crosses the Jordan and takes possession of the land.",
+  "genre": "Historical narrative.",
+  "theme": "God keeps his promise and gives Israel the land, and calls them to remain faithful.",
+  "keyVerse": "Joshua 21:45",
+  "outline": [
+    {
+      "ref": "1:1-5:12",
+      "label": "Preparing and crossing the Jordan",
+      "level": 0
+    },
+    {
+      "ref": "1:1-18",
+      "label": "Joshua commissioned",
+      "level": 1
+    },
+    {
+      "ref": "2:1-24",
+      "label": "Rahab and the spies",
+      "level": 1
+    },
+    {
+      "ref": "5:13-12:24",
+      "label": "The conquest",
+      "level": 0
+    },
+    {
+      "ref": "5:13-6:27",
+      "label": "The commander of the LORD’s army and Jericho",
+      "level": 1
+    },
+    {
+      "ref": "7:1-8:35",
+      "label": "Achan’s sin, Ai, and the renewal at Ebal",
+      "level": 1
+    },
+    {
+      "ref": "13:1-21:45",
+      "label": "Dividing the land",
+      "level": 0
+    },
+    {
+      "ref": "13:1-33",
+      "label": "Land east of the Jordan",
+      "level": 1
+    },
+    {
+      "ref": "14:1-15:63",
+      "label": "Caleb and Judah",
+      "level": 1
+    },
+    {
+      "ref": "22:1-24:33",
+      "label": "Final charges",
+      "level": 0
+    },
+    {
+      "ref": "22:1-34",
+      "label": "The altar by the Jordan",
+      "level": 1
+    },
+    {
+      "ref": "23:1-16",
+      "label": "Joshua’s farewell",
+      "level": 1
+    }
+  ],
+  "christInBook": "Joshua’s name is the same as Jesus in Hebrew. He leads God’s people into the rest of the promised land, while Hebrews 4 teaches that Jesus leads his people into a greater rest. The commander of the LORD’s army (5:13-15) is often seen as a preview of Christ.",
+  "howToRead": "Notice that the book stresses both God’s gift of the land and the people’s duty to obey. Read the conquest accounts alongside the repeated reminders that God was giving the land and judging the nations for their sin."
+}

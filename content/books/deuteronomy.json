@@ -1,0 +1,71 @@
+{
+  "order": 5,
+  "name": "Deuteronomy",
+  "section": "Law: The Pentateuch",
+  "tagline": "Moses’ farewell sermons",
+  "author": "Traditionally Moses, with an account of his death added.",
+  "date": "Traditionally set just before Israel enters the land, about 1400 to 1200 BC.",
+  "setting": "Israel on the plains of Moab, with the Jordan ahead of them.",
+  "genre": "Sermon and covenant renewal.",
+  "theme": "Love the Lord with all your heart, obey him, and remember what he has done.",
+  "keyVerse": "Deuteronomy 6:4-5",
+  "outline": [
+    {
+      "ref": "1:1-4:43",
+      "label": "First address: look back",
+      "level": 0
+    },
+    {
+      "ref": "1:1-46",
+      "label": "From Horeb to Kadesh",
+      "level": 1
+    },
+    {
+      "ref": "4:44-11:32",
+      "label": "Second address: the call to love and obey",
+      "level": 0
+    },
+    {
+      "ref": "4:44-5:33",
+      "label": "The Ten Commandments restated",
+      "level": 1
+    },
+    {
+      "ref": "12:1-26:19",
+      "label": "The law applied",
+      "level": 0
+    },
+    {
+      "ref": "12:1-32",
+      "label": "One place of worship",
+      "level": 1
+    },
+    {
+      "ref": "27:1-30:20",
+      "label": "Covenant renewal",
+      "level": 0
+    },
+    {
+      "ref": "27:1-26",
+      "label": "Ebal and Gerizim, and the curses",
+      "level": 1
+    },
+    {
+      "ref": "31:1-34:12",
+      "label": "Moses’ last days",
+      "level": 0
+    },
+    {
+      "ref": "31:1-30",
+      "label": "Joshua commissioned",
+      "level": 1
+    },
+    {
+      "ref": "32:1-52",
+      "label": "The Song of Moses",
+      "level": 1
+    }
+  ],
+  "christInBook": "Moses promises a prophet like himself (18:15), and the New Testament identifies him as Jesus. Jesus answered every temptation in the wilderness with words from this book, and Paul says Christ became a curse for us (Galatians 3:13, quoting Deuteronomy 21:23).",
+  "howToRead": "Deuteronomy is a sermon, not a law code. Notice the repeated words “remember,” “hear,” “today,” and “love.” The book’s pattern follows ancient covenant documents: history, commands, blessings and curses, and witnesses."
+}

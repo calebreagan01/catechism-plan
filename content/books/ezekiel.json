@@ -1,0 +1,81 @@
+{
+  "order": 26,
+  "name": "Ezekiel",
+  "section": "Old Testament: The Major Prophets",
+  "tagline": "Visions of glory and renewal",
+  "author": "Ezekiel, a priest living among the exiles.",
+  "date": "Ministry from about 593 to 571 BC.",
+  "setting": "The exiles in Babylon, before and after Jerusalem’s fall.",
+  "genre": "Prophecy, visions, and symbolic acts.",
+  "theme": "God’s glory departs from the temple because of sin, and he promises a new heart and a restored people.",
+  "keyVerse": "Ezekiel 36:26",
+  "outline": [
+    {
+      "ref": "1:1-3:27",
+      "label": "Ezekiel’s call",
+      "level": 0
+    },
+    {
+      "ref": "1:1-28",
+      "label": "The vision of the glory of the LORD",
+      "level": 1
+    },
+    {
+      "ref": "4:1-24:27",
+      "label": "Judgment on Jerusalem",
+      "level": 0
+    },
+    {
+      "ref": "4:1-7:27",
+      "label": "Signs and oracles of judgment",
+      "level": 1
+    },
+    {
+      "ref": "25:1-32:32",
+      "label": "Judgment on the nations",
+      "level": 0
+    },
+    {
+      "ref": "25:1-28:26",
+      "label": "Ammon, Moab, Tyre, and Sidon",
+      "level": 1
+    },
+    {
+      "ref": "29:1-32:32",
+      "label": "Egypt",
+      "level": 1
+    },
+    {
+      "ref": "33:1-39:29",
+      "label": "Restoration",
+      "level": 0
+    },
+    {
+      "ref": "33:1-33",
+      "label": "The watchman renewed",
+      "level": 1
+    },
+    {
+      "ref": "34:1-31",
+      "label": "The shepherds and the good shepherd",
+      "level": 1
+    },
+    {
+      "ref": "40:1-48:35",
+      "label": "The new temple",
+      "level": 0
+    },
+    {
+      "ref": "40:1-43:27",
+      "label": "The vision of the new temple and the return of the glory",
+      "level": 1
+    },
+    {
+      "ref": "44:1-46:24",
+      "label": "Worship and the prince",
+      "level": 1
+    }
+  ],
+  "christInBook": "The good shepherd of chapter 34, the new heart and spirit of chapter 36, and the river from the temple in chapter 47 all point to Christ. Jesus calls himself the good shepherd, and he gives living water.",
+  "howToRead": "Ezekiel is full of visions and symbolic acts. Watch for the repeated phrase “then they will know that I am the LORD.” The book moves from the departure of God’s glory to its return."
+}

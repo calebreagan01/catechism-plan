@@ -1,0 +1,66 @@
+{
+  "order": 19,
+  "name": "Psalms",
+  "section": "Old Testament: Wisdom and Poetry",
+  "tagline": "The prayer book of Israel",
+  "author": "Many are attributed to David, with others to Asaph, the sons of Korah, Solomon, Moses, and unnamed authors.",
+  "date": "Composed over many centuries, from the time of Moses to after the exile.",
+  "setting": "Songs and prayers used in Israel’s worship and personal life.",
+  "genre": "Hebrew poetry: praise, lament, thanksgiving, wisdom, and royal psalms.",
+  "theme": "God is king, and his people can bring all their joy and sorrow to him.",
+  "keyVerse": "Psalm 1:1-2",
+  "outline": [
+    {
+      "ref": "1-41",
+      "label": "Book One",
+      "level": 0
+    },
+    {
+      "ref": "1-2",
+      "label": "Introduction: the two ways and the anointed king",
+      "level": 1
+    },
+    {
+      "ref": "42-72",
+      "label": "Book Two",
+      "level": 0
+    },
+    {
+      "ref": "42-49",
+      "label": "Psalms of the sons of Korah",
+      "level": 1
+    },
+    {
+      "ref": "73-89",
+      "label": "Book Three",
+      "level": 0
+    },
+    {
+      "ref": "73-83",
+      "label": "Psalms of Asaph",
+      "level": 1
+    },
+    {
+      "ref": "90-106",
+      "label": "Book Four",
+      "level": 0
+    },
+    {
+      "ref": "90-92",
+      "label": "Moses, refuge, and the Sabbath song",
+      "level": 1
+    },
+    {
+      "ref": "107-150",
+      "label": "Book Five",
+      "level": 0
+    },
+    {
+      "ref": "107",
+      "label": "Give thanks to the LORD",
+      "level": 1
+    }
+  ],
+  "christInBook": "The psalms speak of the Messiah throughout: the anointed king (2), the suffering servant (22), the shepherd (23), the priest-king (110), and the stone the builders rejected (118). Jesus said that everything written about him in the Psalms had to be fulfilled (Luke 24:44).",
+  "howToRead": "Read one psalm at a time and ask what kind it is: praise, lament, thanksgiving, wisdom, or royal. Notice how laments usually move from complaint to trust. The psalms teach you how to pray when you do not know what to say."
+}

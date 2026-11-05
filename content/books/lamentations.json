@@ -1,0 +1,76 @@
+{
+  "order": 25,
+  "name": "Lamentations",
+  "section": "Old Testament: The Major Prophets",
+  "tagline": "Grieving Jerusalem",
+  "author": "Not named in the text. Tradition names Jeremiah.",
+  "date": "After the fall of Jerusalem in 586 BC.",
+  "setting": "Mourning over the destroyed city.",
+  "genre": "Poetry in five laments.",
+  "theme": "Honest grief before God, who remains faithful even in judgment.",
+  "keyVerse": "Lamentations 3:22-23",
+  "outline": [
+    {
+      "ref": "1:1-22",
+      "label": "Jerusalem desolate",
+      "level": 0
+    },
+    {
+      "ref": "1:1-11",
+      "label": "The city mourns",
+      "level": 1
+    },
+    {
+      "ref": "2:1-22",
+      "label": "The LORD’s anger",
+      "level": 0
+    },
+    {
+      "ref": "2:1-10",
+      "label": "The LORD has destroyed",
+      "level": 1
+    },
+    {
+      "ref": "3:1-66",
+      "label": "Hope in the LORD’s mercy",
+      "level": 0
+    },
+    {
+      "ref": "3:1-20",
+      "label": "The man who has seen affliction",
+      "level": 1
+    },
+    {
+      "ref": "4:1-22",
+      "label": "The siege remembered",
+      "level": 0
+    },
+    {
+      "ref": "4:1-12",
+      "label": "The city’s ruin",
+      "level": 1
+    },
+    {
+      "ref": "4:13-22",
+      "label": "Judgment on prophets and priests",
+      "level": 1
+    },
+    {
+      "ref": "5:1-22",
+      "label": "A prayer for restoration",
+      "level": 0
+    },
+    {
+      "ref": "5:1-18",
+      "label": "Remember what has come upon us",
+      "level": 1
+    },
+    {
+      "ref": "5:19-22",
+      "label": "Restore us, O LORD",
+      "level": 1
+    }
+  ],
+  "christInBook": "The grieving of Jerusalem points to Jesus, the man of sorrows, who wept over the city and who bore the full weight of judgment. The hope in 3:22-23, that the LORD’s mercies are new every morning, is fulfilled in him.",
+  "howToRead": "Each chapter is an acrostic poem built on the Hebrew alphabet, and the third chapter is the center of the book. Read it as a model for honest grief that does not let go of God."
+}

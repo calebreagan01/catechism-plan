@@ -1,0 +1,76 @@
+{
+  "order": 55,
+  "name": "2 Timothy",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Paul’s last letter",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 64 to 67.",
+  "setting": "Paul writes from prison, expecting to die.",
+  "genre": "Pastoral letter.",
+  "theme": "Be faithful, guard the gospel, and pass it on.",
+  "keyVerse": "2 Timothy 3:16-17",
+  "outline": [
+    {
+      "ref": "1:1-18",
+      "label": "Do not be ashamed",
+      "level": 0
+    },
+    {
+      "ref": "1:1-7",
+      "label": "Fan into flame the gift of God",
+      "level": 1
+    },
+    {
+      "ref": "1:8-18",
+      "label": "Do not be ashamed of the testimony",
+      "level": 1
+    },
+    {
+      "ref": "2:1-26",
+      "label": "Be strong and endure",
+      "level": 0
+    },
+    {
+      "ref": "2:1-13",
+      "label": "A soldier, athlete, and farmer",
+      "level": 1
+    },
+    {
+      "ref": "2:14-26",
+      "label": "A worker approved",
+      "level": 1
+    },
+    {
+      "ref": "3:1-17",
+      "label": "Hold to Scripture",
+      "level": 0
+    },
+    {
+      "ref": "3:1-9",
+      "label": "Difficult times",
+      "level": 1
+    },
+    {
+      "ref": "3:10-17",
+      "label": "All Scripture is breathed out by God",
+      "level": 1
+    },
+    {
+      "ref": "4:1-22",
+      "label": "Preach the word",
+      "level": 0
+    },
+    {
+      "ref": "4:1-8",
+      "label": "I have fought the good fight",
+      "level": 1
+    },
+    {
+      "ref": "4:9-22",
+      "label": "Personal requests and final words",
+      "level": 1
+    }
+  ],
+  "christInBook": "Paul says that Christ Jesus abolished death and brought life and immortality to light through the gospel (1:10), and that the Lord stood by him and strengthened him (4:17).",
+  "howToRead": "2 Timothy is Paul’s last letter, written near the end of his life. Notice the urgency: guard the gospel, endure suffering, and pass it on."
+}

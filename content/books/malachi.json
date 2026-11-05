@@ -1,0 +1,81 @@
+{
+  "order": 39,
+  "name": "Malachi",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "The last word of the Old Testament",
+  "author": "Malachi.",
+  "date": "Probably about 450 to 400 BC.",
+  "setting": "The returned community has grown lax in worship and covenant faithfulness.",
+  "genre": "Prophecy in a dialogue style.",
+  "theme": "God loves his people and calls them to faithful worship, with a messenger promised before the day of the Lord.",
+  "keyVerse": "Malachi 3:1",
+  "outline": [
+    {
+      "ref": "1:1-5",
+      "label": "God’s love for Israel",
+      "level": 0
+    },
+    {
+      "ref": "1:1-5",
+      "label": "I have loved you",
+      "level": 1
+    },
+    {
+      "ref": "1:6-2:9",
+      "label": "Corrupt priests",
+      "level": 0
+    },
+    {
+      "ref": "1:6-14",
+      "label": "Blemished offerings",
+      "level": 1
+    },
+    {
+      "ref": "2:1-9",
+      "label": "A warning to the priests",
+      "level": 1
+    },
+    {
+      "ref": "2:10-16",
+      "label": "Faithlessness",
+      "level": 0
+    },
+    {
+      "ref": "2:10-16",
+      "label": "Breaking the covenant in marriage",
+      "level": 1
+    },
+    {
+      "ref": "2:17-3:5",
+      "label": "The coming messenger",
+      "level": 0
+    },
+    {
+      "ref": "2:17-3:5",
+      "label": "Where is the God of justice",
+      "level": 1
+    },
+    {
+      "ref": "3:6-4:6",
+      "label": "Return to me",
+      "level": 0
+    },
+    {
+      "ref": "3:6-12",
+      "label": "Robbing God",
+      "level": 1
+    },
+    {
+      "ref": "3:13-4:3",
+      "label": "The book of remembrance and the day",
+      "level": 1
+    },
+    {
+      "ref": "4:4-6",
+      "label": "Remember the law and Elijah",
+      "level": 1
+    }
+  ],
+  "christInBook": "Malachi promises a messenger who will prepare the way (3:1) and the sun of righteousness who rises with healing (4:2). The New Testament identifies John the Baptist as the messenger and Jesus as the LORD who comes to his temple.",
+  "howToRead": "Malachi is a series of questions and answers. God makes a claim, the people ask “How?” and God replies. Read it as a covenant lawsuit in dialogue form."
+}

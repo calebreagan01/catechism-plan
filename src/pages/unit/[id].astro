@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import { units, unitDays, books, YEAR_NAMES, u, dayUrl, dayTitle, shortTheme, TYPE_LABEL, downloadFor } from '../../lib/data.js';
+import { clean, paras } from '../../lib/text.js';
+export function getStaticPaths() { return units.map((x) => ({ params: { id: String(x.id) }, props: { unit: x } })); }
+const { unit } = Astro.props;
+const ds = unitDays(unit.id);
+const weeks = [];
+for (const d of ds) { let w = weeks.find((x) => x.n === d.week); if (!w) { w = { n: d.week, days: [] }; weeks.push(w); } w.days.push(d); }
+const readBooks = [...new Set(ds.flatMap((d) => d.books))].map((s) => books.find((b) => b.slug === s)).filter(Boolean);
+const prev = units.find((x) => x.id === unit.id - 1), next = units.find((x) => x.id === unit.id + 1);
+const pdf = downloadFor('unit', unit.id);
+---
+<Base title={`Unit ${unit.id}: ${unit.title}`} description={unit.theme}>
+  <div class="wrap">
+    <div class="page-head">
+      <div class="label">Unit {unit.id} &middot; Year {unit.year}: {YEAR_NAMES[unit.year]}</div>
+      <h1>{unit.title}</h1>
+      <p class="lede">{unit.subtitle}</p><div class="orn">&#10086;</div>
+      <p class="narrow" style="font-size:1.15rem">{unit.theme}</p>
+      <div class="muted small" style="font-style:italic">Days {unit.firstDay}-{unit.lastDay} &middot; <span data-unit-progress-for={`${unit.firstDay}-${unit.lastDay}`}></span></div>
+      <div class="kicker-links" style="margin-top:1.4rem">
+        <a class="btn primary" href={dayUrl(unit.firstDay)}>Begin this unit</a>
+        {pdf ? <a class="btn" href={u(pdf.file)} download>Download the PDF</a> : <span class="chip" style="cursor:default">PDF coming soon</span>}
+      </div>
+    </div>
+    <div class="framed verse-panel" style="padding:2rem">
+      <div class="label">Unit Anchor Verse</div>
+      <div class="v" style="font-size:1.7rem">&#8220;{unit.memoryText}&#8221;</div>
+      <div class="label" style="color:var(--muted)">{unit.memoryRef}</div>
+    </div>
+    {unit.psalmsNote && <div class="narrow" style="margin-top:2.5rem"><div class="label">The Psalms in this unit</div><p style="font-size:1.05rem;margin-top:.4rem">{clean(unit.psalmsNote)}</p></div>}
+
+    <section class="section" style="margin-top:1rem">
+      <h2 class="center" style="margin-bottom:1.2rem">The days of this unit</h2>
+      {weeks.map((w) => (
+        <div style="margin-bottom:1.6rem">
+          <div class="label" style="margin-bottom:.3rem">Week {w.n}</div>
+          <div class="row-list">
+            {w.days.map((d) => (
+              <a href={dayUrl(d.day)} data-day={d.day}>
+                <span class="a">Day {d.day}</span>
+                <span class="b">{dayTitle(d)}<span class="muted" style="font-style:italic"> &middot; {shortTheme(d)}</span></span>
+                <span class="c"><span class="done-mark">Finished &#10003; &middot; </span>{TYPE_LABEL[d.type]}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+    {readBooks.length > 0 && <section class="section"><div class="label" style="margin-bottom:.6rem">Books read in this unit</div><div class="chips">{readBooks.map((b) => <a class="chip" href={u(`books/${b.slug}/`)}>{b.name}</a>)}</div></section>}
+    <div class="day-nav">
+      {prev ? <a class="btn" href={u(`unit/${prev.id}/`)}>&#8592; Unit {prev.id}</a> : <span></span>}
+      <a class="btn" href={u('plan/')}>All units</a>
+      {next ? <a class="btn" href={u(`unit/${next.id}/`)}>Unit {next.id} &#8594;</a> : <span></span>}
+    </div>
+  </div>
+</Base>

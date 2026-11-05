@@ -1,0 +1,76 @@
+{
+  "order": 10,
+  "name": "2 Samuel",
+  "section": "Old Testament: History",
+  "tagline": "The reign of David",
+  "author": "Not named in the text.",
+  "date": "Covers David’s reign, about 1010 to 970 BC.",
+  "setting": "David becomes king over Judah, then over all Israel, based in Jerusalem.",
+  "genre": "Historical narrative.",
+  "theme": "God makes a covenant with David promising an everlasting kingdom, while David’s sin brings trouble to his house.",
+  "keyVerse": "2 Samuel 7:16",
+  "outline": [
+    {
+      "ref": "1:1-5:5",
+      "label": "David becomes king",
+      "level": 0
+    },
+    {
+      "ref": "1:1-27",
+      "label": "David’s lament for Saul and Jonathan",
+      "level": 1
+    },
+    {
+      "ref": "2:1-4:12",
+      "label": "Civil war between David and Saul’s house",
+      "level": 1
+    },
+    {
+      "ref": "5:6-10:19",
+      "label": "David’s kingdom",
+      "level": 0
+    },
+    {
+      "ref": "5:6-25",
+      "label": "Jerusalem and victory over the Philistines",
+      "level": 1
+    },
+    {
+      "ref": "6:1-23",
+      "label": "The ark brought to Jerusalem",
+      "level": 1
+    },
+    {
+      "ref": "11:1-20:26",
+      "label": "David’s sin and its consequences",
+      "level": 0
+    },
+    {
+      "ref": "11:1-27",
+      "label": "Bathsheba and Uriah",
+      "level": 1
+    },
+    {
+      "ref": "12:1-25",
+      "label": "Nathan’s rebuke and David’s repentance",
+      "level": 1
+    },
+    {
+      "ref": "21:1-24:25",
+      "label": "Appendix",
+      "level": 0
+    },
+    {
+      "ref": "21:1-22",
+      "label": "Famine and the Philistine giants",
+      "level": 1
+    },
+    {
+      "ref": "22:1-51",
+      "label": "David’s song of deliverance",
+      "level": 1
+    }
+  ],
+  "christInBook": "God’s promise that David’s throne will be established forever (7:12-16) is the center of the book. The New Testament announces Jesus as the Son of David whose kingdom has no end (Luke 1:32-33).",
+  "howToRead": "Read chapter 7 as the hinge of the book. Before it, David rises. After it, David’s own sin shows that the promised king cannot be David himself."
+}

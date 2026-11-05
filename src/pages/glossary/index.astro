@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { glossary } from '../../lib/data.js';
+import { clean } from '../../lib/text.js';
+const letters = [...new Set(glossary.map((g) => g.term[0].toUpperCase()))];
+---
+<Base title="Glossary" description="Key terms used in the plan.">
+  <div class="wrap">
+    <div class="page-head"><div class="label">Reference</div><h1>Glossary</h1><p class="lede">Key terms used in the plan</p><div class="orn">&#10086;</div></div>
+    <div class="narrow">
+      <div class="field no-print"><input type="search" data-glossary-filter placeholder="Filter the terms" aria-label="Filter the glossary" style="flex:1" /></div>
+      <nav class="letters no-print" aria-label="Jump to a letter">{letters.map((l) => <a href={`#g-${l}`}>{l}</a>)}</nav>
+      {letters.map((l) => (
+        <section id={`g-${l}`}>
+          {glossary.filter((g) => g.term[0].toUpperCase() === l).map((g) => (
+            <div class="gl-item" style="margin:1rem 0"><h3 class="num" style="font-size:1.25rem">{clean(g.term)}</h3><p style="margin:.1rem 0 0;font-size:1.05rem">{clean(g.definition)}</p></div>
+          ))}
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>

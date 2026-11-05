@@ -1,0 +1,66 @@
+{
+  "order": 23,
+  "name": "Isaiah",
+  "section": "Old Testament: The Major Prophets",
+  "tagline": "Judgment, comfort, and the coming servant",
+  "author": "Isaiah son of Amoz. Some scholars see later editing, while others hold to a single author.",
+  "date": "Isaiah’s ministry ran from about 740 to 700 BC.",
+  "setting": "Judah under threat from Assyria, and later the promise of comfort for exiles.",
+  "genre": "Prophecy and poetry.",
+  "theme": "God judges sin and promises salvation through a coming king and suffering servant.",
+  "keyVerse": "Isaiah 53:5",
+  "outline": [
+    {
+      "ref": "1:1-12:6",
+      "label": "Judgment and hope for Judah",
+      "level": 0
+    },
+    {
+      "ref": "1:1-31",
+      "label": "The LORD’s case against his people",
+      "level": 1
+    },
+    {
+      "ref": "13:1-27:13",
+      "label": "Oracles against the nations",
+      "level": 0
+    },
+    {
+      "ref": "13:1-23:18",
+      "label": "Babylon, Moab, Egypt, Tyre, and others",
+      "level": 1
+    },
+    {
+      "ref": "28:1-39:8",
+      "label": "Trusting God, not nations",
+      "level": 0
+    },
+    {
+      "ref": "28:1-35:10",
+      "label": "Woes and the coming king",
+      "level": 1
+    },
+    {
+      "ref": "40:1-55:13",
+      "label": "Comfort and the servant",
+      "level": 0
+    },
+    {
+      "ref": "40:1-31",
+      "label": "Comfort for God’s people",
+      "level": 1
+    },
+    {
+      "ref": "56:1-66:24",
+      "label": "Restoration and new creation",
+      "level": 0
+    },
+    {
+      "ref": "56:1-59:21",
+      "label": "Justice and repentance",
+      "level": 1
+    }
+  ],
+  "christInBook": "Isaiah speaks of a virgin’s son called Immanuel (7:14), a child who is Mighty God (9:6), a branch from Jesse (11:1), a servant who bears our sins (52:13-53:12), and a herald who brings good news (61:1). The New Testament quotes the book more than any other prophet.",
+  "howToRead": "Isaiah alternates between judgment and hope. Watch for the Holy One of Israel, a title that appears throughout. The book is a unified message of sin, judgment, comfort, and a new creation."
+}

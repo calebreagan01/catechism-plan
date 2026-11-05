@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { u } from '../../lib/data.js';
+---
+<Base title="Search" description="Search every day, book, and reference page.">
+  <link rel="stylesheet" href={u('pagefind/pagefind-ui.css')} />
+  <div class="wrap">
+    <div class="page-head"><div class="label">Search</div><h1>Search the plan</h1><p class="lede">Find a passage, a doctrine, a word, or a verse</p><div class="orn">&#10086;</div></div>
+    <div class="narrow" data-pagefind-ignore><div id="search"></div><noscript>Search needs JavaScript.</noscript></div>
+  </div>
+  <script is:inline src={u('pagefind/pagefind-ui.js')}></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', function () {
+      if (!window.PagefindUI) { document.getElementById('search').textContent = 'Search is available on the published site.'; return; }
+      var base = document.documentElement.getAttribute('data-base') || '/';
+      new PagefindUI({ element: '#search', showSubResults: true, showImages: false, baseUrl: base, translations: { placeholder: 'Search the plan' } });
+    });
+  </script>
+</Base>

@@ -1,0 +1,66 @@
+{
+  "order": 53,
+  "name": "2 Thessalonians",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Standing firm until the Day",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 50 to 52.",
+  "setting": "Written to correct confusion about the day of the Lord.",
+  "genre": "Letter.",
+  "theme": "Stand firm and keep working while waiting for Christ.",
+  "keyVerse": "2 Thessalonians 2:15",
+  "outline": [
+    {
+      "ref": "1:1-12",
+      "label": "Encouragement in persecution",
+      "level": 0
+    },
+    {
+      "ref": "1:1-4",
+      "label": "Thanks for their faith",
+      "level": 1
+    },
+    {
+      "ref": "1:5-12",
+      "label": "Justice at the revelation of Christ",
+      "level": 1
+    },
+    {
+      "ref": "2:1-17",
+      "label": "The day of the Lord",
+      "level": 0
+    },
+    {
+      "ref": "2:1-12",
+      "label": "The man of lawlessness",
+      "level": 1
+    },
+    {
+      "ref": "2:13-17",
+      "label": "Stand firm",
+      "level": 1
+    },
+    {
+      "ref": "3:1-18",
+      "label": "Prayer, work, and closing",
+      "level": 0
+    },
+    {
+      "ref": "3:1-5",
+      "label": "Pray for us",
+      "level": 1
+    },
+    {
+      "ref": "3:6-15",
+      "label": "Warning against idleness",
+      "level": 1
+    },
+    {
+      "ref": "3:16-18",
+      "label": "Benediction",
+      "level": 1
+    }
+  ],
+  "christInBook": "Christ will be revealed from heaven with his mighty angels (1:7), and the Lord Jesus will destroy the man of lawlessness by the breath of his mouth (2:8).",
+  "howToRead": "This letter corrects a misunderstanding about the day of the Lord. Notice how Paul balances confidence in Christ’s return with the call to steady work."
+}

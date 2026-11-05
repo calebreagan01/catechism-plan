@@ -1,0 +1,76 @@
+{
+  "order": 45,
+  "name": "Romans",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "The gospel explained",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 57.",
+  "setting": "Written to believers in Rome, a church Paul had not yet visited.",
+  "genre": "Letter.",
+  "theme": "Righteousness from God comes by faith in Christ to Jew and Gentile alike.",
+  "keyVerse": "Romans 1:16-17",
+  "outline": [
+    {
+      "ref": "1:1-17",
+      "label": "Introduction",
+      "level": 0
+    },
+    {
+      "ref": "1:18-3:20",
+      "label": "All are guilty",
+      "level": 0
+    },
+    {
+      "ref": "3:21-5:21",
+      "label": "Justification by faith",
+      "level": 0
+    },
+    {
+      "ref": "3:21-31",
+      "label": "Righteousness through faith in Christ",
+      "level": 1
+    },
+    {
+      "ref": "6:1-8:39",
+      "label": "New life in Christ",
+      "level": 0
+    },
+    {
+      "ref": "6:1-23",
+      "label": "Dead to sin, alive to God",
+      "level": 1
+    },
+    {
+      "ref": "9:1-11:36",
+      "label": "God’s plan for Israel",
+      "level": 0
+    },
+    {
+      "ref": "9:1-29",
+      "label": "God’s sovereign choice",
+      "level": 1
+    },
+    {
+      "ref": "12:1-15:13",
+      "label": "Living the gospel",
+      "level": 0
+    },
+    {
+      "ref": "12:1-21",
+      "label": "Living sacrifices",
+      "level": 1
+    },
+    {
+      "ref": "15:14-16:27",
+      "label": "Paul’s plans and greetings",
+      "level": 0
+    },
+    {
+      "ref": "15:14-33",
+      "label": "Paul’s ministry",
+      "level": 1
+    }
+  ],
+  "christInBook": "Romans shows that God’s righteousness is revealed in Christ, who was delivered up for our trespasses and raised for our justification (4:25). Christ is the second Adam (5:12-21), the end of the law for righteousness (10:4), and the one in whom there is no condemnation (8:1).",
+  "howToRead": "Romans is a tightly argued letter. Read it in large sections. Chapters 1 to 8 explain the gospel, 9 to 11 explain God’s plan for Israel, and 12 to 16 explain how to live it."
+}

@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { downloads, u, YEAR_NAMES, units } from '../../lib/data.js';
+import { clean } from '../../lib/text.js';
+const group = (k) => downloads.filter((d) => d.kind === k);
+const unitYear = (d) => (units.find((x) => x.id === Number(d.unit)) || {}).year;
+const Item = (d) => d;
+---
+<Base title="PDF Downloads" description="Printable editions of each unit and the whole plan.">
+  <div class="wrap">
+    <div class="page-head"><div class="label">Reference</div><h1>PDF Downloads</h1><p class="lede">Printable editions to keep, print, or share</p><div class="orn">&#10086;</div></div>
+    <div class="narrow">
+      {[['complete', 'The Whole Plan'], ['appendix', 'Appendices']].map(([k, h]) => group(k).length > 0 && (
+        <section style="margin-bottom:2.4rem"><h2>{h}</h2>
+          {group(k).map((d) => (
+            <div class="dl"><div><div class="t">{clean(d.title)}</div><div class="muted" style="font-size:.98rem">{clean(d.description)}</div></div>
+              {d.file ? <a class="btn primary" href={u(d.file)} download>Download PDF</a> : <span class="chip" style="cursor:default">Coming soon</span>}</div>
+          ))}
+        </section>
+      ))}
+      {[1, 2].map((y) => (
+        <section style="margin-bottom:2.4rem"><h2>Year {y}: {YEAR_NAMES[y]}</h2>
+          {group('unit').filter((d) => unitYear(d) === y).map((d) => (
+            <div class="dl"><div><div class="t">{clean(d.title)}</div><div class="muted" style="font-size:.98rem">{clean(d.description)}</div></div>
+              {d.file ? <a class="btn primary" href={u(d.file)} download>Download PDF</a> : <span class="chip" style="cursor:default">Coming soon</span>}</div>
+          ))}
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>

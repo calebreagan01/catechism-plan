@@ -1,0 +1,81 @@
+{
+  "order": 41,
+  "name": "Mark",
+  "section": "New Testament: Gospels and Acts",
+  "tagline": "Jesus, the suffering servant",
+  "author": "Traditionally John Mark, associated with Peter. The book itself is anonymous.",
+  "date": "Often dated between about AD 55 and 70.",
+  "setting": "Written in a brisk style, likely for a wider audience, including Gentile readers.",
+  "genre": "Gospel.",
+  "theme": "Jesus is the Son of God who came to serve and give his life as a ransom.",
+  "keyVerse": "Mark 10:45",
+  "outline": [
+    {
+      "ref": "1:1-13",
+      "label": "The beginning",
+      "level": 0
+    },
+    {
+      "ref": "1:1-8",
+      "label": "John the Baptist",
+      "level": 1
+    },
+    {
+      "ref": "1:14-8:26",
+      "label": "Ministry in Galilee",
+      "level": 0
+    },
+    {
+      "ref": "1:14-3:12",
+      "label": "Authority and early opposition",
+      "level": 1
+    },
+    {
+      "ref": "8:27-10:52",
+      "label": "The way of the cross",
+      "level": 0
+    },
+    {
+      "ref": "8:27-9:29",
+      "label": "Peter’s confession and the transfiguration",
+      "level": 1
+    },
+    {
+      "ref": "9:30-10:52",
+      "label": "Teaching on discipleship",
+      "level": 1
+    },
+    {
+      "ref": "11:1-13:37",
+      "label": "Jerusalem",
+      "level": 0
+    },
+    {
+      "ref": "11:1-12:44",
+      "label": "Entry, temple, and controversies",
+      "level": 1
+    },
+    {
+      "ref": "13:1-37",
+      "label": "The Olivet discourse",
+      "level": 1
+    },
+    {
+      "ref": "14:1-16:8",
+      "label": "Passion and resurrection",
+      "level": 0
+    },
+    {
+      "ref": "14:1-72",
+      "label": "The Last Supper, Gethsemane, and trial",
+      "level": 1
+    },
+    {
+      "ref": "15:1-47",
+      "label": "The crucifixion and burial",
+      "level": 1
+    }
+  ],
+  "christInBook": "Mark moves quickly to show Jesus as the Son of God who came to serve and to give his life as a ransom for many (10:45). The centurion at the cross is the first human to confess him as the Son of God (15:39).",
+  "howToRead": "Mark is the shortest Gospel and the most action-driven. Watch for the word “immediately.” Notice how often Jesus tells people not to tell, and how the disciples struggle to understand."
+}

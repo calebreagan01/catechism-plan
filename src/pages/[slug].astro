@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { marked } from 'marked';
+import { pages } from '../lib/data.js';
+import { clean } from '../lib/text.js';
+export function getStaticPaths() {
+  return pages.filter((p) => p.slug !== 'psalms-guide').map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const html = marked.parse(clean(p.body));
+---
+<Base title={p.title} description={p.subtitle}>
+  <div class="wrap">
+    <div class="page-head"><div class="label">{p.kicker}</div><h1>{p.title}</h1><p class="lede">{p.subtitle}</p><div class="orn">&#10086;</div></div>
+    <div class="narrow prose" set:html={html} />
+  </div>
+</Base>

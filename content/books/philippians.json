@@ -1,0 +1,86 @@
+{
+  "order": 50,
+  "name": "Philippians",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Joy in Christ",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 60 to 62, from prison.",
+  "setting": "Written to a loved and generous church in Philippi.",
+  "genre": "Letter.",
+  "theme": "Christ is our joy, our example, and our goal.",
+  "keyVerse": "Philippians 4:13",
+  "outline": [
+    {
+      "ref": "1:1-26",
+      "label": "Paul’s situation",
+      "level": 0
+    },
+    {
+      "ref": "1:1-11",
+      "label": "Greeting, thanks, and prayer",
+      "level": 1
+    },
+    {
+      "ref": "1:12-26",
+      "label": "Chains and the advance of the gospel",
+      "level": 1
+    },
+    {
+      "ref": "1:27-2:18",
+      "label": "Unity and humility",
+      "level": 0
+    },
+    {
+      "ref": "1:27-2:4",
+      "label": "Live worthy of the gospel",
+      "level": 1
+    },
+    {
+      "ref": "2:5-11",
+      "label": "The mind of Christ",
+      "level": 1
+    },
+    {
+      "ref": "2:12-18",
+      "label": "Work out your salvation",
+      "level": 1
+    },
+    {
+      "ref": "2:19-3:21",
+      "label": "Examples and warnings",
+      "level": 0
+    },
+    {
+      "ref": "2:19-30",
+      "label": "Timothy and Epaphroditus",
+      "level": 1
+    },
+    {
+      "ref": "3:1-11",
+      "label": "Paul’s former gain, now loss",
+      "level": 1
+    },
+    {
+      "ref": "3:12-21",
+      "label": "Pressing on toward the goal",
+      "level": 1
+    },
+    {
+      "ref": "4:1-23",
+      "label": "Encouragements and thanks",
+      "level": 0
+    },
+    {
+      "ref": "4:1-9",
+      "label": "Rejoice and think on these things",
+      "level": 1
+    },
+    {
+      "ref": "4:10-23",
+      "label": "Thanks for the gift",
+      "level": 1
+    }
+  ],
+  "christInBook": "The hymn in 2:6-11 is one of the clearest statements of Christ’s humility, incarnation, death, and exaltation. Paul says that to live is Christ and to die is gain (1:21).",
+  "howToRead": "Philippians is a letter of joy written from prison. Count how many times “joy” and “rejoice” appear. Notice how Paul ties humility and unity to the example of Christ."
+}

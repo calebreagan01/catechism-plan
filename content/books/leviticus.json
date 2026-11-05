@@ -1,0 +1,86 @@
+{
+  "order": 3,
+  "name": "Leviticus",
+  "section": "Law: The Pentateuch",
+  "tagline": "How a holy God lives among a sinful people",
+  "author": "Traditionally Moses.",
+  "date": "Traditionally set at Mount Sinai in the time of Moses.",
+  "setting": "Israel camped at Sinai, with the tabernacle newly built.",
+  "genre": "Law, especially priestly and ritual instruction.",
+  "theme": "God is holy, sin is serious, and sacrifice and priesthood provide a way to approach him.",
+  "keyVerse": "Leviticus 19:2",
+  "outline": [
+    {
+      "ref": "1:1-7:38",
+      "label": "The offerings",
+      "level": 0
+    },
+    {
+      "ref": "1:1-17",
+      "label": "The burnt offering",
+      "level": 1
+    },
+    {
+      "ref": "8:1-10:20",
+      "label": "The priesthood begins",
+      "level": 0
+    },
+    {
+      "ref": "8:1-36",
+      "label": "The ordination of Aaron and his sons",
+      "level": 1
+    },
+    {
+      "ref": "9:1-24",
+      "label": "The first sacrifices and the glory of the LORD",
+      "level": 1
+    },
+    {
+      "ref": "11:1-15:33",
+      "label": "Clean and unclean",
+      "level": 0
+    },
+    {
+      "ref": "11:1-47",
+      "label": "Clean and unclean animals",
+      "level": 1
+    },
+    {
+      "ref": "12:1-8",
+      "label": "Childbirth",
+      "level": 1
+    },
+    {
+      "ref": "16:1-34",
+      "label": "The Day of Atonement",
+      "level": 0
+    },
+    {
+      "ref": "16:1-10",
+      "label": "Preparation and the two goats",
+      "level": 1
+    },
+    {
+      "ref": "16:11-28",
+      "label": "The blood and the scapegoat",
+      "level": 1
+    },
+    {
+      "ref": "17:1-27:34",
+      "label": "The call to holy living",
+      "level": 0
+    },
+    {
+      "ref": "17:1-16",
+      "label": "The sanctity of blood",
+      "level": 1
+    },
+    {
+      "ref": "18:1-20:27",
+      "label": "Sexual ethics, love of neighbor, and penalties",
+      "level": 1
+    }
+  ],
+  "christInBook": "Jesus is the sacrifice, the priest, and the tabernacle at once. The book of Hebrews explains that the offerings, the priesthood, and the Day of Atonement are shadows of what Christ accomplished once for all.",
+  "howToRead": "Do not read Leviticus as a list of random rules. Its question is how a holy God can live among sinners. Look for the repeated words “holy,” “clean,” “atonement,” and “forgiven.”"
+}

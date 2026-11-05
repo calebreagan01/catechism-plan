@@ -1,0 +1,81 @@
+{
+  "order": 46,
+  "name": "1 Corinthians",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Order and love in a divided church",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 53 to 55.",
+  "setting": "Written to the church in Corinth, which faced division and moral problems.",
+  "genre": "Letter.",
+  "theme": "The cross reshapes church life, and love is the way of Christ’s people.",
+  "keyVerse": "1 Corinthians 15:3-4",
+  "outline": [
+    {
+      "ref": "1:1-4:21",
+      "label": "Division and the cross",
+      "level": 0
+    },
+    {
+      "ref": "1:1-17",
+      "label": "Greeting and appeal for unity",
+      "level": 1
+    },
+    {
+      "ref": "5:1-7:40",
+      "label": "Moral questions",
+      "level": 0
+    },
+    {
+      "ref": "5:1-6:20",
+      "label": "Immorality and lawsuits",
+      "level": 1
+    },
+    {
+      "ref": "8:1-11:1",
+      "label": "Food offered to idols",
+      "level": 0
+    },
+    {
+      "ref": "8:1-13",
+      "label": "Knowledge and love",
+      "level": 1
+    },
+    {
+      "ref": "11:2-14:40",
+      "label": "Worship and gifts",
+      "level": 0
+    },
+    {
+      "ref": "11:2-34",
+      "label": "Order in worship and the Lord’s Supper",
+      "level": 1
+    },
+    {
+      "ref": "12:1-31",
+      "label": "Spiritual gifts and one body",
+      "level": 1
+    },
+    {
+      "ref": "15:1-58",
+      "label": "The resurrection",
+      "level": 0
+    },
+    {
+      "ref": "15:1-11",
+      "label": "The gospel of first importance",
+      "level": 1
+    },
+    {
+      "ref": "15:12-34",
+      "label": "If Christ is not raised",
+      "level": 1
+    },
+    {
+      "ref": "16:1-24",
+      "label": "The collection and closing",
+      "level": 0
+    }
+  ],
+  "christInBook": "Paul says that Christ crucified is the power and wisdom of God (1:23-24), that Christ is our Passover lamb (5:7), and that he has been raised as the firstfruits of those who have died (15:20).",
+  "howToRead": "1 Corinthians answers specific questions and problems in a divided church. Notice how Paul returns to the cross in each section, and how chapter 13 on love sits in the middle of the discussion of gifts."
+}

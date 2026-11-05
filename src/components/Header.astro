@@ -1,0 +1,30 @@
+---
+import { u } from '../lib/data.js';
+const path = Astro.url.pathname.replace(u(''), '/');
+const main = [['today/', 'Today'], ['plan/', 'The Plan'], ['doctrines/', 'Doctrines'], ['memory/', 'Memory Verses'], ['psalms/', 'Psalms'], ['books/', 'Books']];
+const more = [['how-to-use/', 'How to Use This Plan'], ['author-note/', 'An Author’s Note'], ['glossary/', 'Glossary'], ['checklist/', 'Weekly Checklist'], ['downloads/', 'PDF Downloads']];
+const on = (h) => path.startsWith('/' + h);
+---
+<header class="site-header" data-pagefind-ignore>
+  <div class="wrap bar">
+    <a class="brand" href={u('')}>Catechism</a>
+    <div class="menu">
+      <button type="button" class="menu-btn" data-menu aria-expanded="false" aria-controls="mainnav">Menu</button>
+      <nav id="mainnav" aria-label="Main">
+        {main.map(([h, l]) => <a href={u(h)} aria-current={on(h) ? 'page' : undefined}>{l}</a>)}
+        <span class="sep" aria-hidden="true"></span>
+        {more.map(([h, l]) => <a class="minor" href={u(h)} aria-current={on(h) ? 'page' : undefined}>{l}</a>)}
+      </nav>
+    </div>
+    <div class="tools">
+      <a class="prog" href={u('today/')} title="Your progress">
+        <span data-progress-text>0 of 900 finished</span>
+        <span class="meter"><span data-progress-bar></span></span>
+      </a>
+      <a class="iconbtn" href={u('search/')} aria-label="Search">Search</a>
+      <button class="iconbtn" type="button" data-size-down aria-label="Smaller text">A-</button>
+      <button class="iconbtn" type="button" data-size-up aria-label="Larger text">A+</button>
+      <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch light and dark">Night</button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,18 @@
+---
+import { site, u } from '../lib/data.js';
+---
+<footer class="site-footer" data-pagefind-ignore>
+  <div class="wrap foot">
+    <span>{site.footerNote}</span>
+    <span>{site.bibleNote}</span>
+  </div>
+  <div class="wrap foot small">
+    <a href={u('how-to-use/')}>How to use this plan</a>
+    <a href={u('author-note/')}>Author&#8217;s note</a>
+    <a href={u('glossary/')}>Glossary</a>
+    <a href={u('checklist/')}>Weekly checklist</a>
+    <a href={u('downloads/')}>PDF downloads</a>
+    <a href={u('search/')}>Search</a>
+    <button type="button" class="linklike" data-export>Back up my progress</button>
+  </div>
+</footer>

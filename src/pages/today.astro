@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import TodayCard from '../components/TodayCard.astro';
+import { u, weekVerses } from '../lib/data.js';
+---
+<Base title="Today" description="Your reading for today and your progress.">
+  <div class="wrap">
+    <div class="page-head"><div class="label">Today</div><h1>Where you are</h1><p class="lede">Your place in the plan, kept privately in this browser.</p></div>
+    <div class="grid g2" style="align-items:start;gap:2.5rem">
+      <div><TodayCard /><div class="finish" data-today><button type="button" class="btn" data-done-toggle="1">Mark this day as finished</button></div></div>
+      <div style="display:flex;flex-direction:column;gap:1.4rem">
+        <div class="grid g2">
+          <div class="card stat"><div class="n" data-stat="done">0</div><div class="label" style="color:var(--muted)">Days finished</div></div>
+          <div class="card stat"><div class="n" data-stat="pct">0%</div><div class="label" style="color:var(--muted)">Of the plan</div></div>
+        </div>
+        <div class="card" data-today>
+          <div class="label">Memory Verse</div>
+          <div style="font-size:1.35rem;font-style:italic;line-height:1.45;margin:.5rem 0" data-v="text">&#8220;{weekVerses[0].text}&#8221;</div>
+          <div class="label" style="color:var(--muted)" data-v="ref">{weekVerses[0].ref}</div>
+        </div>
+        <div class="card">
+          <h3 style="font-style:italic">Set your place</h3>
+          <p class="muted small" data-start-info>No start date set. The plan will follow the days you finish.</p>
+          <form id="start-form" class="field"><label for="start-date" class="small">I started on</label><input id="start-date" type="date" required /><button class="btn" type="submit">Save</button></form>
+          <div class="field"><button type="button" class="btn" data-start-today>I am starting today</button></div>
+          <form id="on-day" class="field"><label for="on-day-n" class="small">I am already on Day</label><input id="on-day-n" type="number" min="1" max="900" style="min-width:6rem" /><button class="btn" type="submit">Go</button></form>
+          <p class="muted small" style="margin:.6rem 0 0">With a start date, Today follows the calendar. Without one, it follows the days you finish.</p>
+        </div>
+        <div class="card">
+          <h3 style="font-style:italic">Keep your progress safe</h3>
+          <p class="muted small">Progress lives only in this browser. Save a backup file to move it to another device or to keep it if you clear your browser.</p>
+          <div class="field"><button type="button" class="btn" data-export>Save a backup</button><label class="btn" style="cursor:pointer">Restore a backup<input type="file" accept="application/json" data-import hidden /></label></div>
+          <p class="small muted" data-import-msg style="margin:0"></p>
+          <div class="field" style="margin-top:1rem"><button type="button" class="linklike small" data-reset>Clear my progress</button></div>
+        </div>
+      </div>
+    </div>
+    <div style="padding:3rem 0 0" data-today>
+      <div class="center" style="margin-bottom:1.4rem"><div class="label">Coming Up</div></div>
+      <div class="grid g4" data-week-cards></div>
+    </div>
+  </div>
+</Base>

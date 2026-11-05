@@ -1,0 +1,81 @@
+{
+  "order": 44,
+  "name": "Acts",
+  "section": "New Testament: Gospels and Acts",
+  "tagline": "The church begins and spreads",
+  "author": "Traditionally Luke, the author of the third Gospel.",
+  "date": "Covers about AD 30 to 62. Often dated to the 60s or later.",
+  "setting": "The early church spreads from Jerusalem to Rome.",
+  "genre": "Historical narrative.",
+  "theme": "The risen Christ builds his church through the Holy Spirit, taking the gospel to all nations.",
+  "keyVerse": "Acts 1:8",
+  "outline": [
+    {
+      "ref": "1:1-8:3",
+      "label": "Witness in Jerusalem",
+      "level": 0
+    },
+    {
+      "ref": "1:1-26",
+      "label": "The ascension and the replacement of Judas",
+      "level": 1
+    },
+    {
+      "ref": "8:4-12:25",
+      "label": "Judea, Samaria, and the first Gentiles",
+      "level": 0
+    },
+    {
+      "ref": "8:4-40",
+      "label": "Philip in Samaria and the Ethiopian",
+      "level": 1
+    },
+    {
+      "ref": "13:1-15:35",
+      "label": "The first journey and the Jerusalem council",
+      "level": 0
+    },
+    {
+      "ref": "13:1-14:28",
+      "label": "Paul and Barnabas sent out",
+      "level": 1
+    },
+    {
+      "ref": "15:1-35",
+      "label": "The Jerusalem council",
+      "level": 1
+    },
+    {
+      "ref": "15:36-21:16",
+      "label": "Paul’s later journeys",
+      "level": 0
+    },
+    {
+      "ref": "15:36-18:22",
+      "label": "Macedonia, Athens, and Corinth",
+      "level": 1
+    },
+    {
+      "ref": "18:23-20:38",
+      "label": "Ephesus and the farewell",
+      "level": 1
+    },
+    {
+      "ref": "21:17-28:31",
+      "label": "Arrest and Rome",
+      "level": 0
+    },
+    {
+      "ref": "21:17-23:35",
+      "label": "Arrest in Jerusalem",
+      "level": 1
+    },
+    {
+      "ref": "24:1-26:32",
+      "label": "Before Felix, Festus, and Agrippa",
+      "level": 1
+    }
+  ],
+  "christInBook": "Acts continues what Jesus began to do and teach (1:1), now through the Spirit and the church. Luke shows the risen Christ ruling from heaven, adding to his church, and bringing the gospel to every nation.",
+  "howToRead": "Acts follows the plan of 1:8: Jerusalem, Judea and Samaria, and the ends of the earth. Watch for summary statements such as “the word of God continued to increase” that mark each stage."
+}

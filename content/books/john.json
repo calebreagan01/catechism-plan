@@ -1,0 +1,86 @@
+{
+  "order": 43,
+  "name": "John",
+  "section": "New Testament: Gospels and Acts",
+  "tagline": "Jesus, the Word made flesh",
+  "author": "Traditionally the apostle John. The book itself does not name its author.",
+  "date": "Often dated between about AD 80 and 95.",
+  "setting": "Selected signs and teachings written so that readers believe.",
+  "genre": "Gospel, with a different structure from Matthew, Mark, and Luke.",
+  "theme": "Jesus is the eternal Son of God, and eternal life comes through believing in him.",
+  "keyVerse": "John 20:31",
+  "outline": [
+    {
+      "ref": "1:1-18",
+      "label": "The prologue",
+      "level": 0
+    },
+    {
+      "ref": "1:1-5",
+      "label": "The Word was God",
+      "level": 1
+    },
+    {
+      "ref": "1:6-18",
+      "label": "The Word became flesh",
+      "level": 1
+    },
+    {
+      "ref": "1:19-12:50",
+      "label": "The book of signs",
+      "level": 0
+    },
+    {
+      "ref": "1:19-2:12",
+      "label": "The first disciples and water into wine",
+      "level": 1
+    },
+    {
+      "ref": "2:13-4:54",
+      "label": "Temple, Nicodemus, and the woman at the well",
+      "level": 1
+    },
+    {
+      "ref": "13:1-17:26",
+      "label": "The farewell",
+      "level": 0
+    },
+    {
+      "ref": "13:1-38",
+      "label": "Footwashing and the new commandment",
+      "level": 1
+    },
+    {
+      "ref": "14:1-16:33",
+      "label": "The way, the Spirit, and the vine",
+      "level": 1
+    },
+    {
+      "ref": "18:1-20:31",
+      "label": "Passion and resurrection",
+      "level": 0
+    },
+    {
+      "ref": "18:1-19:42",
+      "label": "Arrest, trial, and crucifixion",
+      "level": 1
+    },
+    {
+      "ref": "20:1-31",
+      "label": "The empty tomb and Thomas",
+      "level": 1
+    },
+    {
+      "ref": "21:1-25",
+      "label": "Epilogue",
+      "level": 0
+    },
+    {
+      "ref": "21:1-25",
+      "label": "Breakfast by the sea and Peter restored",
+      "level": 1
+    }
+  ],
+  "christInBook": "John begins with the Word who is God and became flesh, and ends so that readers may believe that Jesus is the Christ, the Son of God. Seven “I am” sayings and seven signs show who he is.",
+  "howToRead": "John is built around signs, long discourses, and the “hour” of the cross. Read it slowly. Notice repeated words like “believe,” “life,” “light,” “truth,” and “abide.”"
+}

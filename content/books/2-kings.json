@@ -1,0 +1,71 @@
+{
+  "order": 12,
+  "name": "2 Kings",
+  "section": "Old Testament: History",
+  "tagline": "The end of the kingdoms",
+  "author": "Not named in the text.",
+  "date": "Covers about 850 to 560 BC.",
+  "setting": "Israel falls to Assyria in 722 BC and Judah falls to Babylon in 586 BC.",
+  "genre": "Historical narrative.",
+  "theme": "Persistent covenant unfaithfulness ends in exile, yet a hint of hope remains for David’s line.",
+  "keyVerse": "2 Kings 17:7",
+  "outline": [
+    {
+      "ref": "1:1-8:29",
+      "label": "Elijah and Elisha",
+      "level": 0
+    },
+    {
+      "ref": "1:1-2:25",
+      "label": "Elijah taken up and Elisha’s mantle",
+      "level": 1
+    },
+    {
+      "ref": "3:1-27",
+      "label": "War against Moab",
+      "level": 1
+    },
+    {
+      "ref": "9:1-17:41",
+      "label": "Jehu to the fall of Israel",
+      "level": 0
+    },
+    {
+      "ref": "9:1-10:36",
+      "label": "Jehu’s revolt",
+      "level": 1
+    },
+    {
+      "ref": "11:1-12:21",
+      "label": "Athaliah and Joash",
+      "level": 1
+    },
+    {
+      "ref": "13:1-14:29",
+      "label": "Kings of Israel and Judah",
+      "level": 1
+    },
+    {
+      "ref": "18:1-25:30",
+      "label": "Judah to the exile",
+      "level": 0
+    },
+    {
+      "ref": "18:1-20:21",
+      "label": "Hezekiah and Isaiah",
+      "level": 1
+    },
+    {
+      "ref": "21:1-26",
+      "label": "Manasseh and Amon",
+      "level": 1
+    },
+    {
+      "ref": "22:1-23:30",
+      "label": "Josiah’s reform",
+      "level": 1
+    }
+  ],
+  "christInBook": "Elisha’s miracles, including raising a child and feeding a crowd, prepare for the greater works of Jesus. Hezekiah and Josiah show reforming kings, but neither can finally save, and the book ends with a Davidic king still alive in exile, keeping hope open.",
+  "howToRead": "This book moves quickly from king to king. Keep an eye on the prophets, who explain why events happen, and on the final chapters, where the exile is described as the covenant curse come true."
+}

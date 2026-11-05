@@ -1,0 +1,86 @@
+{
+  "order": 9,
+  "name": "1 Samuel",
+  "section": "Old Testament: History",
+  "tagline": "From judges to kings",
+  "author": "Not named in the text. Often thought to rely on earlier records.",
+  "date": "Covers about 1100 to 1010 BC. Final form is often dated after the kingdom divided.",
+  "setting": "Israel moves from tribal rule under Eli and Samuel to the monarchy under Saul, with David rising.",
+  "genre": "Historical narrative.",
+  "theme": "God gives Israel a king, rejects Saul for disobedience, and chooses David.",
+  "keyVerse": "1 Samuel 16:7",
+  "outline": [
+    {
+      "ref": "1:1-7:17",
+      "label": "Eli and Samuel",
+      "level": 0
+    },
+    {
+      "ref": "1:1-2:11",
+      "label": "Hannah’s prayer and Samuel’s birth",
+      "level": 1
+    },
+    {
+      "ref": "8:1-12:25",
+      "label": "Israel asks for a king",
+      "level": 0
+    },
+    {
+      "ref": "8:1-22",
+      "label": "The elders demand a king",
+      "level": 1
+    },
+    {
+      "ref": "9:1-10:27",
+      "label": "Saul anointed",
+      "level": 1
+    },
+    {
+      "ref": "13:1-15:35",
+      "label": "Saul’s failures",
+      "level": 0
+    },
+    {
+      "ref": "13:1-22",
+      "label": "The unlawful sacrifice",
+      "level": 1
+    },
+    {
+      "ref": "14:1-52",
+      "label": "Jonathan’s victory and Saul’s rash oath",
+      "level": 1
+    },
+    {
+      "ref": "16:1-20:42",
+      "label": "David’s rise",
+      "level": 0
+    },
+    {
+      "ref": "16:1-23",
+      "label": "David anointed and brought to Saul",
+      "level": 1
+    },
+    {
+      "ref": "17:1-58",
+      "label": "David and Goliath",
+      "level": 1
+    },
+    {
+      "ref": "21:1-31:13",
+      "label": "David on the run",
+      "level": 0
+    },
+    {
+      "ref": "21:1-22:23",
+      "label": "Nob and the cave of Adullam",
+      "level": 1
+    },
+    {
+      "ref": "23:1-26:25",
+      "label": "Saul pursues, and David spares him",
+      "level": 1
+    }
+  ],
+  "christInBook": "David, the anointed shepherd king from Bethlehem, anticipates the greater Son of David. Hannah’s song (2:1-10) speaks of God’s “anointed” and foreshadows Mary’s song in Luke 1.",
+  "howToRead": "The book turns on a contrast between outward and inward: Saul looks like a king, while David is a man after God’s heart. Pay attention to who is listening to God and who is not."
+}

@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import { u } from '../lib/data.js';
+---
+<Base title="Page not found">
+  <div class="wrap"><div class="page-head"><div class="label">Not found</div><h1>We could not find that page</h1><div class="orn">&#10086;</div>
+  <p class="lede">Try today&#8217;s reading, the plan, or search.</p>
+  <div class="kicker-links"><a class="btn primary" href={u('today/')}>Today</a><a class="btn" href={u('plan/')}>The plan</a><a class="btn" href={u('search/')}>Search</a></div></div></div>
+</Base>

@@ -1,0 +1,61 @@
+{
+  "order": 61,
+  "name": "2 Peter",
+  "section": "New Testament: General Letters and Revelation",
+  "tagline": "Remember and grow",
+  "author": "The apostle Peter. Some scholars question this, while the church has long affirmed it.",
+  "date": "Usually dated about AD 64 to 68.",
+  "setting": "Written to warn against false teachers.",
+  "genre": "Letter.",
+  "theme": "Grow in knowledge of Christ and hold fast until he returns.",
+  "keyVerse": "2 Peter 3:9",
+  "outline": [
+    {
+      "ref": "1:1-21",
+      "label": "Growing in godliness",
+      "level": 0
+    },
+    {
+      "ref": "1:1-11",
+      "label": "Make your calling and election sure",
+      "level": 1
+    },
+    {
+      "ref": "1:12-21",
+      "label": "The reliability of the apostolic testimony",
+      "level": 1
+    },
+    {
+      "ref": "2:1-22",
+      "label": "False teachers",
+      "level": 0
+    },
+    {
+      "ref": "2:1-10",
+      "label": "Their judgment is certain",
+      "level": 1
+    },
+    {
+      "ref": "2:11-22",
+      "label": "Their character exposed",
+      "level": 1
+    },
+    {
+      "ref": "3:1-18",
+      "label": "The day of the Lord",
+      "level": 0
+    },
+    {
+      "ref": "3:1-13",
+      "label": "Scoffers and the patience of the Lord",
+      "level": 1
+    },
+    {
+      "ref": "3:14-18",
+      "label": "Grow in grace",
+      "level": 1
+    }
+  ],
+  "christInBook": "Peter speaks of the power and coming of our Lord Jesus Christ (1:16), the transfiguration as an eyewitness testimony, and the promise of new heavens and a new earth in which righteousness dwells (3:13).",
+  "howToRead": "2 Peter is Peter’s farewell. Notice his concern that readers remember what they have been taught and not be carried away by false teachers."
+}

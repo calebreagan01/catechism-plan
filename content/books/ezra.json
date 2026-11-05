@@ -1,0 +1,71 @@
+{
+  "order": 15,
+  "name": "Ezra",
+  "section": "Old Testament: History",
+  "tagline": "Return and rebuilding",
+  "author": "Not named in the text. Tradition names Ezra.",
+  "date": "Covers about 538 to 458 BC.",
+  "setting": "Jewish exiles return to Jerusalem under Persian rule and rebuild the temple.",
+  "genre": "Historical narrative.",
+  "theme": "God keeps his promise to bring his people home, and his people must be rebuilt in obedience to the law.",
+  "keyVerse": "Ezra 7:10",
+  "outline": [
+    {
+      "ref": "1:1-6:22",
+      "label": "The first return and the temple",
+      "level": 0
+    },
+    {
+      "ref": "1:1-11",
+      "label": "Cyrus’s decree and the return",
+      "level": 1
+    },
+    {
+      "ref": "2:1-70",
+      "label": "The list of returning exiles",
+      "level": 1
+    },
+    {
+      "ref": "3:1-13",
+      "label": "The altar and foundation laid",
+      "level": 1
+    },
+    {
+      "ref": "4:1-24",
+      "label": "Opposition to the work",
+      "level": 1
+    },
+    {
+      "ref": "5:1-6:22",
+      "label": "The temple finished and dedicated",
+      "level": 1
+    },
+    {
+      "ref": "7:1-10:44",
+      "label": "Ezra’s return and reform",
+      "level": 0
+    },
+    {
+      "ref": "7:1-28",
+      "label": "Ezra’s commission",
+      "level": 1
+    },
+    {
+      "ref": "8:1-36",
+      "label": "The journey and the exiles who returned",
+      "level": 1
+    },
+    {
+      "ref": "9:1-15",
+      "label": "Ezra’s prayer about intermarriage",
+      "level": 1
+    },
+    {
+      "ref": "10:1-44",
+      "label": "The people’s response",
+      "level": 1
+    }
+  ],
+  "christInBook": "The return from exile and the rebuilding of the temple point to a greater restoration. Ezra’s study and teaching of the law anticipate Christ, the final teacher of God’s word.",
+  "howToRead": "Ezra covers two returns, one under Zerubbabel and one under Ezra himself. Notice the strong role of Scripture, prayer, and confession in rebuilding."
+}

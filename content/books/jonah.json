@@ -1,0 +1,81 @@
+{
+  "order": 32,
+  "name": "Jonah",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "A reluctant prophet and a merciful God",
+  "author": "Not named in the text. The prophet Jonah appears in 2 Kings 14.",
+  "date": "Set in the 700s BC.",
+  "setting": "Jonah is sent to Nineveh, the capital of Assyria.",
+  "genre": "Narrative.",
+  "theme": "God’s mercy reaches even Israel’s enemies.",
+  "keyVerse": "Jonah 4:2",
+  "outline": [
+    {
+      "ref": "1:1-17",
+      "label": "Jonah flees",
+      "level": 0
+    },
+    {
+      "ref": "1:1-3",
+      "label": "The call and the flight",
+      "level": 1
+    },
+    {
+      "ref": "1:4-16",
+      "label": "The storm and the sailors",
+      "level": 1
+    },
+    {
+      "ref": "1:17",
+      "label": "The great fish",
+      "level": 1
+    },
+    {
+      "ref": "2:1-10",
+      "label": "Jonah’s prayer",
+      "level": 0
+    },
+    {
+      "ref": "2:1-9",
+      "label": "Prayer from the fish",
+      "level": 1
+    },
+    {
+      "ref": "2:10",
+      "label": "Jonah delivered",
+      "level": 1
+    },
+    {
+      "ref": "3:1-10",
+      "label": "Nineveh repents",
+      "level": 0
+    },
+    {
+      "ref": "3:1-4",
+      "label": "The second call",
+      "level": 1
+    },
+    {
+      "ref": "3:5-10",
+      "label": "The city turns and God relents",
+      "level": 1
+    },
+    {
+      "ref": "4:1-11",
+      "label": "Jonah’s anger and God’s question",
+      "level": 0
+    },
+    {
+      "ref": "4:1-5",
+      "label": "Jonah complains",
+      "level": 1
+    },
+    {
+      "ref": "4:6-11",
+      "label": "The plant and the question",
+      "level": 1
+    }
+  ],
+  "christInBook": "Jesus called Jonah’s three days in the fish a sign of his own death and resurrection (Matthew 12:39-41). He said that one greater than Jonah is here.",
+  "howToRead": "Jonah is a story with a surprise ending. Notice that the question at the end is addressed to Jonah, and the book leaves it open for the reader to answer."
+}

@@ -1,0 +1,71 @@
+{
+  "order": 54,
+  "name": "1 Timothy",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Order in the church",
+  "author": "The apostle Paul. Some scholars question Pauline authorship of the pastoral letters, though the church has long affirmed it.",
+  "date": "Usually dated in the early 60s AD.",
+  "setting": "Written to Timothy, who is leading the church in Ephesus.",
+  "genre": "Pastoral letter.",
+  "theme": "Guard sound teaching and organize the church for godly life.",
+  "keyVerse": "1 Timothy 3:15",
+  "outline": [
+    {
+      "ref": "1:1-20",
+      "label": "Warning against false teachers",
+      "level": 0
+    },
+    {
+      "ref": "1:1-11",
+      "label": "The law and false teaching",
+      "level": 1
+    },
+    {
+      "ref": "1:12-20",
+      "label": "Paul’s testimony and charge",
+      "level": 1
+    },
+    {
+      "ref": "2:1-3:16",
+      "label": "Worship and leadership",
+      "level": 0
+    },
+    {
+      "ref": "2:1-15",
+      "label": "Prayer and conduct in worship",
+      "level": 1
+    },
+    {
+      "ref": "3:1-13",
+      "label": "Overseers and deacons",
+      "level": 1
+    },
+    {
+      "ref": "3:14-16",
+      "label": "The mystery of godliness",
+      "level": 1
+    },
+    {
+      "ref": "4:1-6:21",
+      "label": "Instructions for Timothy and the church",
+      "level": 0
+    },
+    {
+      "ref": "4:1-16",
+      "label": "A good servant of Christ Jesus",
+      "level": 1
+    },
+    {
+      "ref": "5:1-6:2",
+      "label": "Widows, elders, and slaves",
+      "level": 1
+    },
+    {
+      "ref": "6:3-21",
+      "label": "Contentment, wealth, and a final charge",
+      "level": 1
+    }
+  ],
+  "christInBook": "Paul says that Christ Jesus came into the world to save sinners (1:15), that there is one mediator between God and men, the man Christ Jesus (2:5), and that the church is the pillar and buttress of the truth (3:15).",
+  "howToRead": "1 Timothy is a letter from an older pastor to a younger pastor. Notice how Paul returns to sound teaching, godly character, and the dangers of false teaching and love of money."
+}

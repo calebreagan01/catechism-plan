@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { days, u, dayUrl } from '../../lib/data.js';
+import { clean } from '../../lib/text.js';
+const doc = days.filter((d) => d.type === 'doctrinal');
+const loci = [...new Set(doc.map((d) => d.locus))];
+---
+<Base title="Doctrinal Pauses" description="The days that stop the story to study a teaching of the faith.">
+  <div class="wrap">
+    <div class="page-head"><div class="label">Reference</div><h1>Doctrinal Pauses</h1><p class="lede">Days that stop the story to study a teaching of the faith</p><div class="orn">&#10086;</div></div>
+    <div class="narrow prose"><p>On these {doc.length} days the reading has one extra section, the Doctrinal Focus, which sets out what the Bible teaches on a topic and how Christians have understood it. Filter by topic, or read them in the order they appear.</p></div>
+    <div class="chips no-print" style="justify-content:center;margin:1.5rem 0" data-filter-group=".doc-row">
+      <button type="button" class="chip" data-filter="all" aria-pressed="true">All {doc.length}</button>
+      {loci.map((l) => <button type="button" class="chip" data-filter={l} aria-pressed="false">{l} ({doc.filter((d) => d.locus === l).length})</button>)}
+    </div>
+    <div class="row-list" style="max-width:60rem;margin:0 auto">
+      {doc.map((d) => (
+        <a class="doc-row" data-key={d.locus} data-day={d.day} href={dayUrl(d.day)}>
+          <span class="a">Day {d.day}</span>
+          <span class="b"><strong>{clean(d.doctrine)}</strong><span class="muted" style="font-style:italic"> &middot; {clean(d.passage)}</span>{d.summary && <span class="muted" style="display:block;font-size:.95rem">{clean(d.summary)}</span>}</span>
+          <span class="c"><span class="done-mark">Finished &#10003; &middot; </span>{d.locus} &middot; Unit {d.unit}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

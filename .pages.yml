@@ -1,0 +1,177 @@
+# Pages CMS configuration (https://pagescms.org)
+# This file tells the free online editor what you can change and how it is laid out.
+media:
+  - name: downloads
+    label: PDF downloads
+    input: public/downloads
+    output: /downloads
+    extensions: [pdf]
+    rename: safe
+
+content:
+  - name: days
+    label: Daily readings (900 days)
+    type: collection
+    path: content/days
+    format: json
+    filename: "day-{primary}.json"
+    view:
+      primary: day
+      sort: day
+      order: asc
+    fields:
+      - { name: day, label: Day number, type: number, required: true }
+      - name: type
+        label: Type of day
+        type: select
+        options:
+          values: [primary, psalm, doctrinal, rest, review, review_rest]
+      - { name: unit, label: Unit number, type: number }
+      - { name: week, label: Week number, type: number }
+      - { name: dayInWeek, label: Day of week (1 = Sunday), type: number }
+      - { name: passage, label: Passage, type: string }
+      - { name: theme, label: Theme, type: string }
+      - { name: category, label: Reading category, type: string }
+      - { name: verses, label: Number of verses, type: number }
+      - { name: locus, label: Doctrine area (doctrinal days), type: string }
+      - { name: doctrine, label: Doctrine (doctrinal days), type: string }
+      - { name: summary, label: Doctrine summary (doctrinal days), type: text }
+      - { name: readingInstruction, label: The Reading, type: text }
+      - { name: settingTheScene, label: Setting the Scene, type: text, description: "Separate paragraphs with a blank line." }
+      - name: observation
+        label: Observation (one item per point)
+        type: text
+        list: true
+      - { name: doctrinalFocus, label: Doctrinal Focus, type: text }
+      - { name: interpretation, label: Interpretation, type: text, description: "Separate paragraphs with a blank line." }
+      - { name: connection, label: Connection, type: text }
+      - { name: application, label: Application, type: text, description: "Separate paragraphs with a blank line." }
+      - name: prayerPrompts
+        label: Respond in Prayer (two or three prompts)
+        type: text
+        list: true
+      - { name: memoryRef, label: Memory verse reference (Sabbath and review days), type: string }
+      - { name: memoryText, label: Memory verse text (Sabbath and review days), type: text }
+      - { name: memoryVerseMeditation, label: Meditation (Sabbath and review days), type: text }
+      - { name: weekInReview, label: The Week in Review, type: text }
+      - name: reflectionQuestions
+        label: Questions for Reflection (Sabbath days)
+        type: text
+        list: true
+      - { name: unitRecap, label: Unit Recap (review days), type: text }
+      - name: reviewQuestions
+        label: Review Questions (review days)
+        type: object
+        list: true
+        fields:
+          - { name: question, label: Question, type: text }
+          - { name: prompt, label: Prompt, type: text }
+
+  - name: units
+    label: Units (25)
+    type: collection
+    path: content/units
+    format: json
+    view: { primary: title, sort: id, order: asc }
+    fields:
+      - { name: id, label: Unit number, type: number }
+      - { name: year, label: Year, type: number }
+      - { name: title, label: Title, type: string }
+      - { name: subtitle, label: Subtitle, type: string }
+      - { name: theme, label: Theme, type: text }
+      - { name: firstDay, label: First day, type: number }
+      - { name: lastDay, label: Last day, type: number }
+      - { name: memoryRef, label: Anchor verse reference, type: string }
+      - { name: memoryText, label: Anchor verse text, type: text }
+      - { name: psalmsNote, label: How the Psalms are used in this unit, type: text }
+      - { name: reviewQuestions, label: Review questions (kept for reference), type: text, list: true }
+
+  - name: books
+    label: Books of the Bible (66)
+    type: collection
+    path: content/books
+    format: json
+    view: { primary: name, sort: order, order: asc }
+    fields:
+      - { name: order, label: Order, type: number }
+      - { name: name, label: Name, type: string }
+      - { name: section, label: Section, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: author, label: Author, type: text }
+      - { name: date, label: Date, type: text }
+      - { name: setting, label: Setting, type: text }
+      - { name: genre, label: Genre, type: string }
+      - { name: theme, label: Theme, type: text }
+      - { name: keyVerse, label: Key verse, type: string }
+      - { name: christInBook, label: Christ in this book, type: text }
+      - { name: howToRead, label: How to read it, type: text }
+      - name: outline
+        label: Literary outline
+        type: object
+        list: true
+        fields:
+          - { name: ref, label: Passage, type: string }
+          - { name: label, label: Heading, type: string }
+          - { name: level, label: "Level (0 = main, 1 = sub-point)", type: number }
+
+  - name: pages
+    label: Guide pages (How to use, Author's note, Psalms guide)
+    type: collection
+    path: content/pages
+    format: yaml-frontmatter
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: subtitle, label: Subtitle, type: string }
+      - { name: kicker, label: Small label above the title, type: string }
+      - { name: order, label: Order, type: number }
+      - { name: body, label: Text, type: rich-text }
+
+  - name: glossary
+    label: Glossary
+    type: file
+    path: content/glossary.json
+    format: json
+    list: true
+    fields:
+      - { name: term, label: Term, type: string }
+      - { name: definition, label: Definition, type: text }
+
+  - name: downloads
+    label: PDF downloads list
+    type: file
+    path: content/downloads.json
+    format: json
+    list: true
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: description, label: Description, type: text }
+      - name: kind
+        label: Kind
+        type: select
+        options: { values: [complete, appendix, unit] }
+      - { name: unit, label: Unit number (0 if not a single unit), type: number }
+      - name: file
+        label: PDF file (upload or choose)
+        type: file
+        options:
+          media: downloads
+          extensions: [pdf]
+
+  - name: site
+    label: Site wording (home page, footer)
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: title, label: Site title, type: string }
+      - { name: subtitle, label: Subtitle, type: string }
+      - { name: tagline, label: Home page headline, type: string }
+      - { name: intro, label: Home page introduction, type: text }
+      - { name: bibleNote, label: Bible translation note, type: string }
+      - { name: footerNote, label: Footer line, type: string }
+      - { name: accent, label: Accent color, type: string }
+      - name: look
+        label: Look of the site
+        type: select
+        options:
+          values: [classic, modern]

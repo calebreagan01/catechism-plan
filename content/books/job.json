@@ -1,0 +1,81 @@
+{
+  "order": 18,
+  "name": "Job",
+  "section": "Old Testament: Wisdom and Poetry",
+  "tagline": "Suffering and the wisdom of God",
+  "author": "Not named in the text.",
+  "date": "The setting is in the patriarchal age. The date of writing is uncertain.",
+  "setting": "A righteous man loses everything and wrestles with God and his friends.",
+  "genre": "Wisdom poetry in a narrative frame.",
+  "theme": "Human understanding of suffering is limited, and God’s wisdom and presence are enough.",
+  "keyVerse": "Job 19:25",
+  "outline": [
+    {
+      "ref": "1:1-2:13",
+      "label": "The prologue",
+      "level": 0
+    },
+    {
+      "ref": "1:1-5",
+      "label": "Job’s character",
+      "level": 1
+    },
+    {
+      "ref": "3:1-31:40",
+      "label": "Job and his friends",
+      "level": 0
+    },
+    {
+      "ref": "3:1-26",
+      "label": "Job’s lament",
+      "level": 1
+    },
+    {
+      "ref": "32:1-37:24",
+      "label": "Elihu’s speeches",
+      "level": 0
+    },
+    {
+      "ref": "32:1-33:33",
+      "label": "Elihu begins",
+      "level": 1
+    },
+    {
+      "ref": "34:1-37:24",
+      "label": "Elihu defends God’s justice",
+      "level": 1
+    },
+    {
+      "ref": "38:1-42:6",
+      "label": "The LORD answers",
+      "level": 0
+    },
+    {
+      "ref": "38:1-40:2",
+      "label": "The first speech from the whirlwind",
+      "level": 1
+    },
+    {
+      "ref": "40:3-5",
+      "label": "Job’s first reply",
+      "level": 1
+    },
+    {
+      "ref": "42:7-17",
+      "label": "The epilogue",
+      "level": 0
+    },
+    {
+      "ref": "42:7-9",
+      "label": "The friends rebuked",
+      "level": 1
+    },
+    {
+      "ref": "42:10-17",
+      "label": "Job restored",
+      "level": 1
+    }
+  ],
+  "christInBook": "Job longs for a mediator who could stand between him and God (9:33, 16:19-21, 19:25). Jesus is that mediator and redeemer, and he is also the righteous sufferer whose suffering was for others.",
+  "howToRead": "Job is poetry, so do not read the speeches as a debate with one right side. The friends say true things in the wrong way, and Job says bold things in pain. Notice that God never gives Job an explanation, but gives himself."
+}

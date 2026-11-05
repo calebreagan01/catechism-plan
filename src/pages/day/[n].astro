@@ -1,0 +1,114 @@
+---
+import Base from '../../layouts/Base.astro';
+import { days, byDay, unitDays, unitById, books, weekVerse, u, dayUrl, dayTitle, shortTheme, TYPE_LABEL } from '../../lib/data.js';
+import { clean, paras, inline } from '../../lib/text.js';
+export function getStaticPaths() { return days.map((d) => ({ params: { n: String(d.day) }, props: { d } })); }
+const { d } = Astro.props;
+const unit = unitById(d.unit);
+const sib = unitDays(d.unit);
+const prev = byDay(d.day - 1), next = byDay(d.day + 1);
+const isRest = d.type === 'rest', isReview = d.type === 'review' || d.type === 'review_rest';
+const normal = !isRest && !isReview;
+const wv = weekVerse(d.week);
+const title = dayTitle(d);
+const bks = d.books.map((s) => books.find((b) => b.slug === s)).filter(Boolean);
+const sections = [];
+if (normal) {
+  if (d.readingInstruction) sections.push(['reading', 'The Reading']);
+  sections.push(['scene', 'Setting the Scene'], ['observation', 'Observation']);
+  if (d.doctrinalFocus) sections.push(['doctrine', 'Doctrinal Focus']);
+  sections.push(['interpretation', 'Interpretation'], ['connection', 'Connection'], ['application', 'Application'], ['prayer', 'Respond in Prayer']);
+} else if (isRest) {
+  if (d.readingInstruction) sections.push(['reading', 'The Reading']);
+  sections.push(['verse', 'Memory Verse for the Week'], ['meditation', 'Meditation'], ['review', 'The Week in Review'], ['reflection', 'Questions for Reflection'], ['prayer', 'Respond in Prayer']);
+} else {
+  sections.push(['verse', 'Unit Verse'], ['meditation', 'Meditation']);
+  if (d.weekInReview) sections.push(['review', 'The Week in Review']);
+  sections.push(['recap', 'Unit Recap'], ['questions', 'Review Questions'], ['prayer', 'Respond in Prayer']);
+}
+const kicker = `Day ${d.day} · Week ${d.week}`;
+const h1 = normal ? title : isRest ? 'Sabbath Rest' : (d.weekInReview ? 'Review and Sabbath Rest' : 'Review and Reflection');
+const sub = normal ? shortTheme(d) : isRest ? 'No new reading today. Rest, remember, and look back over the week.' : shortTheme(d);
+let lastWeek = 0;
+const desc = normal ? `${title}: ${sub}` : `${h1}. ${sub}`;
+---
+<Base title={`Day ${d.day}: ${h1}`} description={desc} wide>
+  <div class="wrap wide">
+    <div class="day-shell">
+      <aside class="left" data-pagefind-ignore aria-label={`Days in Unit ${d.unit}`}>
+        <a class="small muted" href={u('plan/')}>&#8592; All units</a>
+        <div style="margin-top:.8rem"><a href={u(`unit/${d.unit}/`)}><div class="label">Unit {d.unit} &middot; Year {unit.year}</div><div style="font-size:1.3rem;font-style:italic;line-height:1.2;margin-top:.3rem">{unit.title}</div></a><div class="muted small">{unit.subtitle}</div></div>
+        <nav class="unit-list" aria-label="Days in this unit">
+          {sib.map((x) => {
+            const head = x.week !== lastWeek; lastWeek = x.week;
+            const rest = x.type === 'rest' || x.type === 'review_rest';
+            return (<>
+              {head && <div class="wk">Week {x.week}</div>}
+              <a href={dayUrl(x.day)} data-day={x.day} class={rest ? 'rest' : ''} aria-current={x.day === d.day ? 'page' : undefined}><span class="n">{x.day}</span><span>{x.type === 'rest' ? 'Sabbath Rest' : dayTitle(x)}</span></a>
+            </>);
+          })}
+        </nav>
+      </aside>
+
+      <article>
+        <div class="day-head">
+          <div class="label">{kicker}</div>
+          <h1>{h1}</h1>
+          <div class="theme">{sub}</div>
+          <div class="orn">&#10086;</div>
+          <div class="meta">Year {unit.year} &middot; Unit {d.unit} &middot; {TYPE_LABEL[d.type]}{d.verses ? ` · ${d.verses} verses` : ''}</div>
+          {bks.length > 0 && <div class="kicker-links no-print">{bks.map((b) => <a class="chip" href={u(`books/${b.slug}/`)}>About {b.name}</a>)}</div>}
+        </div>
+
+        {d.readingInstruction && <section class="day-sec" id="reading"><div class="label">The Reading</div><h2>{normal ? 'Read the passage' : 'Today’s reading'}</h2><div class="reading-note">{clean(d.readingInstruction)}</div><p class="muted small" style="margin-top:.8rem;font-style:italic">Read from your own Bible. The ESV is recommended.</p></section>}
+
+        {normal && <>
+          <section class="day-sec" id="scene"><div class="label">Step 2</div><h2>Setting the Scene</h2>{paras(d.settingTheScene).map((p) => <p>{p}</p>)}</section>
+          <section class="day-sec" id="observation"><div class="label">Step 3</div><h2>Observation</h2><ol class="obs">{d.observation.map((o) => <li><span>{clean(o)}</span></li>)}</ol></section>
+          {d.doctrinalFocus && <section class="day-sec" id="doctrine"><div class="label">Doctrinal Pause{d.locus ? ` · ${d.locus}` : ''}</div><h2>Doctrinal Focus</h2>{paras(d.doctrinalFocus).map((p) => <p>{p}</p>)}</section>}
+          <section class="day-sec" id="interpretation"><div class="label">Step 4</div><h2>Interpretation</h2>{paras(d.interpretation).map((p) => <p>{p}</p>)}</section>
+          <section class="day-sec" id="connection"><div class="label">Step 5</div><h2>Connection</h2>{paras(d.connection).map((p) => <p>{p}</p>)}</section>
+          <section class="day-sec" id="application"><div class="label">Step 6</div><h2>Application</h2>{paras(d.application).map((p) => <p>{p}</p>)}</section>
+        </>}
+
+        {isRest && <>
+          <section class="day-sec" id="verse"><div class="label">Memory</div><h2>Memory Verse for the Week</h2><div class="framed verse-big"><div class="v">&#8220;{clean(d.memoryText)}&#8221;</div><div class="label" style="color:var(--muted);margin-top:.6rem">{clean(d.memoryRef)}</div></div></section>
+          <section class="day-sec" id="meditation"><div class="label">Rest</div><h2>Meditation</h2>{paras(d.memoryVerseMeditation).map((p) => <p>{p}</p>)}</section>
+          <section class="day-sec" id="review"><div class="label">Look back</div><h2>The Week in Review</h2>{paras(d.weekInReview).map((p) => <p>{p}</p>)}</section>
+          <section class="day-sec" id="reflection"><div class="label">Reflect</div><h2>Questions for Reflection</h2><div class="q-list">{d.reflectionQuestions.map((q) => <div><span>{clean(q)}</span></div>)}</div></section>
+        </>}
+
+        {isReview && <>
+          <section class="day-sec" id="verse"><div class="label">Memory</div><h2>Unit Verse</h2><div class="framed verse-big"><div class="v">&#8220;{clean(d.memoryText)}&#8221;</div><div class="label" style="color:var(--muted);margin-top:.6rem">{clean(d.memoryRef)}</div></div></section>
+          <section class="day-sec" id="meditation"><div class="label">Rest</div><h2>Meditation</h2>{paras(d.memoryVerseMeditation).map((p) => <p>{p}</p>)}</section>
+          {d.weekInReview && <section class="day-sec" id="review"><div class="label">Look back</div><h2>The Week in Review</h2>{paras(d.weekInReview).map((p) => <p>{p}</p>)}</section>}
+          <section class="day-sec" id="recap"><div class="label">Look back</div><h2>Unit Recap</h2>{paras(d.unitRecap).map((p) => <p>{p}</p>)}</section>
+          <section class="day-sec" id="questions"><div class="label">Reflect</div><h2>Review Questions</h2><div class="q-list">{d.reviewQuestions.map((q) => <div><span>{clean(q.question)}<span class="p">{clean(q.prompt)}</span></span></div>)}</div></section>
+        </>}
+
+        <section class="day-sec" id="prayer"><div class="label">Pray</div><h2>Respond in Prayer</h2>
+          <p class="center muted" style="font-style:italic">Talk to God in your own words. You might:</p>
+          <div class="prompt-list">{(d.prayerPrompts || []).map((p) => <div><span>{clean(p)}</span></div>)}</div>
+        </section>
+
+        {(normal || (isReview && !d.weekInReview)) && wv && wv.ref && (
+          <div class="verse-remind"><div class="label">Memory Verse for Week {d.week}</div><div class="v">&#8220;{wv.text}&#8221;</div><div class="label" style="color:var(--muted)">{wv.ref}</div></div>
+        )}
+
+        <div class="finish no-print"><button type="button" class="btn" data-done-toggle={d.day}>Mark this day as finished</button></div>
+        <div class="day-nav no-print">
+          {prev ? <a class="btn" data-prev href={dayUrl(prev.day)}>&#8592; Day {prev.day}</a> : <span></span>}
+          <a class="btn" href={u(`unit/${d.unit}/`)}>Unit {d.unit}</a>
+          {next ? <a class="btn primary" data-next href={dayUrl(next.day)}>Day {next.day} &#8594;</a> : <span></span>}
+        </div>
+      </article>
+
+      <aside class="right no-print" data-pagefind-ignore aria-label="On this page">
+        <div class="label">Today&#8217;s steps</div>
+        <nav class="rail-steps">{sections.map(([id, l], i) => <a href={`#${id}`}><span class="dot">{i + 1}</span><span>{l}</span></a>)}</nav>
+        {wv && wv.ref && <div class="card"><div class="label">Memory Verse &middot; Week {d.week}</div><div style="font-size:1.05rem;font-style:italic;line-height:1.5;margin:.5rem 0">&#8220;{wv.text}&#8221;</div><div class="label" style="color:var(--muted)">{wv.ref}</div></div>}
+        <p class="small muted" style="margin-top:1rem">Tip: the left and right arrow keys move between days.</p>
+      </aside>
+    </div>
+  </div>
+</Base>

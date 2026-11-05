@@ -1,0 +1,66 @@
+{
+  "order": 2,
+  "name": "Exodus",
+  "section": "Law: The Pentateuch",
+  "tagline": "God rescues and dwells with his people",
+  "author": "Traditionally Moses.",
+  "date": "Traditionally dated to the time of Moses. Scholars differ on the date of the exodus itself, often placed in the 1400s or 1200s BC.",
+  "setting": "Israel in Egyptian slavery, then in the wilderness at Mount Sinai.",
+  "genre": "Narrative and law.",
+  "theme": "God redeems Israel from slavery, makes a covenant with them at Sinai, and comes to live among them in the tabernacle.",
+  "keyVerse": "Exodus 19:4-6",
+  "outline": [
+    {
+      "ref": "1:1-2:25",
+      "label": "Israel in Egypt and the birth of Moses",
+      "level": 0
+    },
+    {
+      "ref": "3:1-7:7",
+      "label": "The call of Moses",
+      "level": 0
+    },
+    {
+      "ref": "7:8-11:10",
+      "label": "The plagues",
+      "level": 0
+    },
+    {
+      "ref": "12:1-13:16",
+      "label": "The Passover and the exodus",
+      "level": 0
+    },
+    {
+      "ref": "13:17-15:21",
+      "label": "The crossing of the sea",
+      "level": 0
+    },
+    {
+      "ref": "15:22-18:27",
+      "label": "From the sea to Sinai",
+      "level": 0
+    },
+    {
+      "ref": "19:1-24:18",
+      "label": "The covenant at Sinai",
+      "level": 0
+    },
+    {
+      "ref": "25:1-31:18",
+      "label": "Instructions for the tabernacle",
+      "level": 0
+    },
+    {
+      "ref": "32:1-34:35",
+      "label": "The golden calf and the renewal of the covenant",
+      "level": 0
+    },
+    {
+      "ref": "35:1-40:38",
+      "label": "Building the tabernacle",
+      "level": 0
+    }
+  ],
+  "christInBook": "Moses the deliverer, the Passover lamb, the manna, the water from the rock, the tabernacle, and the priesthood all point to Jesus. John 1:14 says the Word “tabernacled” among us, and Paul calls Christ our Passover lamb (1 Corinthians 5:7).",
+  "howToRead": "Exodus has two halves: redemption (chapters 1-18) and covenant and worship (chapters 19-40). Notice that God rescues Israel before he gives the law. Obedience in this book always follows grace."
+}

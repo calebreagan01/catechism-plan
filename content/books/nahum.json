@@ -1,0 +1,61 @@
+{
+  "order": 34,
+  "name": "Nahum",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "The fall of Nineveh",
+  "author": "Nahum.",
+  "date": "Probably between about 663 and 612 BC.",
+  "setting": "Nineveh, the Assyrian capital, will fall.",
+  "genre": "Prophecy and poetry.",
+  "theme": "God is slow to anger but will judge oppression.",
+  "keyVerse": "Nahum 1:7",
+  "outline": [
+    {
+      "ref": "1:1-15",
+      "label": "The LORD’s power",
+      "level": 0
+    },
+    {
+      "ref": "1:1-8",
+      "label": "The LORD is a jealous and avenging God",
+      "level": 1
+    },
+    {
+      "ref": "1:9-15",
+      "label": "The end of the plot and good news for Judah",
+      "level": 1
+    },
+    {
+      "ref": "2:1-13",
+      "label": "The fall described",
+      "level": 0
+    },
+    {
+      "ref": "2:1-10",
+      "label": "The attack on the city",
+      "level": 1
+    },
+    {
+      "ref": "2:11-13",
+      "label": "The lion’s den",
+      "level": 1
+    },
+    {
+      "ref": "3:1-19",
+      "label": "Why Nineveh falls",
+      "level": 0
+    },
+    {
+      "ref": "3:1-7",
+      "label": "Woe to the bloody city",
+      "level": 1
+    },
+    {
+      "ref": "3:8-19",
+      "label": "No escape",
+      "level": 1
+    }
+  ],
+  "christInBook": "Nahum 1:15 speaks of the messenger who brings good news and announces peace, which is quoted by Paul about the gospel (Romans 10:15). The justice of God against oppression is satisfied fully in Christ.",
+  "howToRead": "Nahum is a poem about the end of an empire. Read it as the other side of Jonah: Nineveh repented once, but later returned to cruelty."
+}

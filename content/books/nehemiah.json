@@ -1,0 +1,91 @@
+{
+  "order": 16,
+  "name": "Nehemiah",
+  "section": "Old Testament: History",
+  "tagline": "Rebuilding the wall",
+  "author": "Largely Nehemiah’s own memoir.",
+  "date": "Covers about 445 to 430 BC.",
+  "setting": "Nehemiah, a cupbearer to the Persian king, returns to rebuild Jerusalem’s walls.",
+  "genre": "Historical narrative.",
+  "theme": "God’s people rebuild by prayer, courage, and reading the law together.",
+  "keyVerse": "Nehemiah 8:10",
+  "outline": [
+    {
+      "ref": "1:1-7:73",
+      "label": "Rebuilding the wall",
+      "level": 0
+    },
+    {
+      "ref": "1:1-11",
+      "label": "Nehemiah’s prayer",
+      "level": 1
+    },
+    {
+      "ref": "2:1-20",
+      "label": "The king’s permission and the night inspection",
+      "level": 1
+    },
+    {
+      "ref": "3:1-32",
+      "label": "The builders listed",
+      "level": 1
+    },
+    {
+      "ref": "4:1-23",
+      "label": "Opposition and the armed builders",
+      "level": 1
+    },
+    {
+      "ref": "5:1-19",
+      "label": "Injustice among the people",
+      "level": 1
+    },
+    {
+      "ref": "6:1-19",
+      "label": "The wall completed",
+      "level": 1
+    },
+    {
+      "ref": "7:1-73",
+      "label": "The list of the people",
+      "level": 1
+    },
+    {
+      "ref": "8:1-10:39",
+      "label": "Renewing the covenant",
+      "level": 0
+    },
+    {
+      "ref": "8:1-18",
+      "label": "The reading of the law and the Feast of Booths",
+      "level": 1
+    },
+    {
+      "ref": "9:1-37",
+      "label": "The prayer of confession",
+      "level": 1
+    },
+    {
+      "ref": "10:1-39",
+      "label": "The pledge",
+      "level": 1
+    },
+    {
+      "ref": "11:1-13:31",
+      "label": "Settling and reform",
+      "level": 0
+    },
+    {
+      "ref": "11:1-12:47",
+      "label": "Resettlement and the dedication of the wall",
+      "level": 1
+    },
+    {
+      "ref": "13:1-31",
+      "label": "Nehemiah’s final reforms",
+      "level": 1
+    }
+  ],
+  "christInBook": "Nehemiah left a position of comfort to rebuild his people’s city, and points to Christ, who left heaven to restore his people. The public reading of the law (chapter 8) points to the word of God that renews the heart.",
+  "howToRead": "Nehemiah is a leadership story. Notice how prayer and action go side by side, and how opposition grows as the work succeeds."
+}

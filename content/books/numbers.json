@@ -1,0 +1,61 @@
+{
+  "order": 4,
+  "name": "Numbers",
+  "section": "Law: The Pentateuch",
+  "tagline": "A generation in the wilderness",
+  "author": "Traditionally Moses.",
+  "date": "Traditionally covers about forty years after the exodus.",
+  "setting": "Israel counted and organized at Sinai, then wandering until a new generation is ready to enter the land.",
+  "genre": "Narrative, law, and census lists.",
+  "theme": "God stays faithful even when his people rebel, and he leads a new generation toward the promise.",
+  "keyVerse": "Numbers 14:18",
+  "outline": [
+    {
+      "ref": "1:1-10:10",
+      "label": "Preparing at Sinai",
+      "level": 0
+    },
+    {
+      "ref": "10:11-12:16",
+      "label": "From Sinai to Paran",
+      "level": 0
+    },
+    {
+      "ref": "13:1-14:45",
+      "label": "The twelve spies and the refusal to enter",
+      "level": 0
+    },
+    {
+      "ref": "15:1-19:22",
+      "label": "Years of wandering",
+      "level": 0
+    },
+    {
+      "ref": "20:1-22:1",
+      "label": "Toward Moab",
+      "level": 0
+    },
+    {
+      "ref": "22:2-25:18",
+      "label": "Balaam and Baal of Peor",
+      "level": 0
+    },
+    {
+      "ref": "22:2-24:25",
+      "label": "Balaam’s oracles",
+      "level": 1
+    },
+    {
+      "ref": "26:1-36:13",
+      "label": "A new generation",
+      "level": 0
+    },
+    {
+      "ref": "26:1-65",
+      "label": "The second census",
+      "level": 1
+    }
+  ],
+  "christInBook": "The bronze serpent lifted up in the wilderness is a picture of Christ on the cross (John 3:14-15). The rock that gave water, the manna, and the cities of refuge all point forward, and Balaam’s oracle speaks of a star and a scepter out of Israel (24:17).",
+  "howToRead": "Numbers alternates between narrative and lists. The census lists show God’s careful care for his people. The stories show their repeated unbelief. Pay attention to how Moses intercedes and how God keeps his promise anyway."
+}

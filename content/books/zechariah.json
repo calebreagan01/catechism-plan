@@ -1,0 +1,81 @@
+{
+  "order": 38,
+  "name": "Zechariah",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "Visions of hope for the returned exiles",
+  "author": "Zechariah. Some scholars see a different author for the later chapters.",
+  "date": "Begins about 520 BC.",
+  "setting": "Returned exiles are encouraged to finish the temple.",
+  "genre": "Prophecy and visions.",
+  "theme": "God will cleanse his people and send a humble king.",
+  "keyVerse": "Zechariah 9:9",
+  "outline": [
+    {
+      "ref": "1:1-6",
+      "label": "A call to return",
+      "level": 0
+    },
+    {
+      "ref": "1:1-6",
+      "label": "Return to me",
+      "level": 1
+    },
+    {
+      "ref": "1:7-6:15",
+      "label": "Eight night visions",
+      "level": 0
+    },
+    {
+      "ref": "1:7-17",
+      "label": "The horsemen",
+      "level": 1
+    },
+    {
+      "ref": "1:18-2:13",
+      "label": "The horns and the measuring line",
+      "level": 1
+    },
+    {
+      "ref": "3:1-10",
+      "label": "Joshua the high priest cleansed",
+      "level": 1
+    },
+    {
+      "ref": "7:1-8:23",
+      "label": "Questions about fasting",
+      "level": 0
+    },
+    {
+      "ref": "7:1-14",
+      "label": "True fasting",
+      "level": 1
+    },
+    {
+      "ref": "8:1-23",
+      "label": "Jerusalem restored",
+      "level": 1
+    },
+    {
+      "ref": "9:1-14:21",
+      "label": "Oracles of the coming king",
+      "level": 0
+    },
+    {
+      "ref": "9:1-17",
+      "label": "The humble king",
+      "level": 1
+    },
+    {
+      "ref": "10:1-11:17",
+      "label": "The shepherds",
+      "level": 1
+    },
+    {
+      "ref": "12:1-13:9",
+      "label": "The pierced one and the cleansing fountain",
+      "level": 1
+    }
+  ],
+  "christInBook": "Zechariah 9:9, the king who comes humble and riding on a donkey, is fulfilled at the triumphal entry. The pierced one (12:10), the shepherd who is struck (13:7), and the fountain for sin (13:1) all point to Christ.",
+  "howToRead": "Zechariah is full of visions and symbols. Read the visions in chapters 1 to 6 as encouragement for builders, and chapters 9 to 14 as oracles about the coming king."
+}

@@ -1,0 +1,81 @@
+{
+  "order": 59,
+  "name": "James",
+  "section": "New Testament: General Letters and Revelation",
+  "tagline": "Faith that works",
+  "author": "James. Tradition identifies him as the brother of Jesus.",
+  "date": "Often dated in the 40s or 60s AD.",
+  "setting": "Written to Jewish Christians scattered abroad.",
+  "genre": "Letter with wisdom teaching.",
+  "theme": "Genuine faith produces practical obedience.",
+  "keyVerse": "James 2:17",
+  "outline": [
+    {
+      "ref": "1:1-18",
+      "label": "Trials and temptations",
+      "level": 0
+    },
+    {
+      "ref": "1:1-12",
+      "label": "Joy in trials",
+      "level": 1
+    },
+    {
+      "ref": "1:13-18",
+      "label": "God does not tempt",
+      "level": 1
+    },
+    {
+      "ref": "1:19-2:26",
+      "label": "Hearing and doing",
+      "level": 0
+    },
+    {
+      "ref": "1:19-27",
+      "label": "Be doers of the word",
+      "level": 1
+    },
+    {
+      "ref": "2:1-13",
+      "label": "No partiality",
+      "level": 1
+    },
+    {
+      "ref": "2:14-26",
+      "label": "Faith and works",
+      "level": 1
+    },
+    {
+      "ref": "3:1-4:12",
+      "label": "Words and wisdom",
+      "level": 0
+    },
+    {
+      "ref": "3:1-12",
+      "label": "Taming the tongue",
+      "level": 1
+    },
+    {
+      "ref": "3:13-4:12",
+      "label": "Wisdom from above and worldliness",
+      "level": 1
+    },
+    {
+      "ref": "4:13-5:20",
+      "label": "Patience and prayer",
+      "level": 0
+    },
+    {
+      "ref": "4:13-5:6",
+      "label": "Boasting and the rich",
+      "level": 1
+    },
+    {
+      "ref": "5:7-20",
+      "label": "Patience, oaths, and the prayer of faith",
+      "level": 1
+    }
+  ],
+  "christInBook": "James calls himself a servant of the Lord Jesus Christ and speaks of the coming of the Lord (5:7-8). The wisdom he describes, pure, peaceable, and gentle, is the character of Christ.",
+  "howToRead": "James is like a sermon in short sections. Notice the many echoes of Jesus’ Sermon on the Mount, and that he is not opposing faith, but showing how genuine faith acts."
+}

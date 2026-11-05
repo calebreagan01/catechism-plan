@@ -1,0 +1,66 @@
+{
+  "order": 63,
+  "name": "2 John",
+  "section": "New Testament: General Letters and Revelation",
+  "tagline": "Truth and love",
+  "author": "The author calls himself “the elder,” and tradition identifies him with John.",
+  "date": "Often dated about AD 85 to 95.",
+  "setting": "Written to “the elect lady and her children.”",
+  "genre": "Short letter.",
+  "theme": "Walk in truth and love, and avoid false teachers.",
+  "keyVerse": "2 John 6",
+  "outline": [
+    {
+      "ref": "1-3",
+      "label": "Greeting",
+      "level": 0
+    },
+    {
+      "ref": "1-2",
+      "label": "The elder to the elect lady",
+      "level": 1
+    },
+    {
+      "ref": "3",
+      "label": "Grace, mercy, and peace",
+      "level": 1
+    },
+    {
+      "ref": "4-6",
+      "label": "Walk in love",
+      "level": 0
+    },
+    {
+      "ref": "4",
+      "label": "Walking in the truth",
+      "level": 1
+    },
+    {
+      "ref": "5-6",
+      "label": "Love one another",
+      "level": 1
+    },
+    {
+      "ref": "7-11",
+      "label": "Beware of deceivers",
+      "level": 0
+    },
+    {
+      "ref": "7",
+      "label": "Many deceivers",
+      "level": 1
+    },
+    {
+      "ref": "8-11",
+      "label": "Do not receive them",
+      "level": 1
+    },
+    {
+      "ref": "12-13",
+      "label": "Closing",
+      "level": 0
+    }
+  ],
+  "christInBook": "John warns against those who do not confess that Jesus Christ has come in the flesh (v. 7). The true teaching about Christ is the center of the letter.",
+  "howToRead": "2 John is one page. Notice how it holds together truth and love, and how it warns against welcoming teachers who deny Christ."
+}

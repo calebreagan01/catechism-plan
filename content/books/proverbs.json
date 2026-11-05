@@ -1,0 +1,66 @@
+{
+  "order": 20,
+  "name": "Proverbs",
+  "section": "Old Testament: Wisdom and Poetry",
+  "tagline": "Wisdom for daily life",
+  "author": "Largely Solomon, with sections credited to others such as Agur and Lemuel and to “the wise.”",
+  "date": "Collected over time, from about the 900s to the 700s BC or later.",
+  "setting": "Instruction for the young and for those who lead, drawn from experience and the fear of the Lord.",
+  "genre": "Wisdom sayings and poems.",
+  "theme": "The fear of the Lord is the beginning of wisdom, and wise living follows from it.",
+  "keyVerse": "Proverbs 9:10",
+  "outline": [
+    {
+      "ref": "1:1-9:18",
+      "label": "A father’s appeal for wisdom",
+      "level": 0
+    },
+    {
+      "ref": "1:1-7",
+      "label": "Purpose and motto",
+      "level": 1
+    },
+    {
+      "ref": "10:1-22:16",
+      "label": "Proverbs of Solomon",
+      "level": 0
+    },
+    {
+      "ref": "10:1-15:33",
+      "label": "Contrasts of the righteous and the wicked",
+      "level": 1
+    },
+    {
+      "ref": "22:17-24:34",
+      "label": "Sayings of the wise",
+      "level": 0
+    },
+    {
+      "ref": "22:17-23:35",
+      "label": "Thirty sayings",
+      "level": 1
+    },
+    {
+      "ref": "25:1-29:27",
+      "label": "Hezekiah’s collection",
+      "level": 0
+    },
+    {
+      "ref": "25:1-27:27",
+      "label": "Kings, neighbors, and fools",
+      "level": 1
+    },
+    {
+      "ref": "30:1-31:31",
+      "label": "Final words",
+      "level": 0
+    },
+    {
+      "ref": "30:1-33",
+      "label": "The words of Agur",
+      "level": 1
+    }
+  ],
+  "christInBook": "Wisdom calls aloud in the streets (1:20-33; 8:1-36), and the New Testament says that Christ is the wisdom of God (1 Corinthians 1:24, 30; Colossians 2:3). He is the one in whom all the treasures of wisdom are hidden.",
+  "howToRead": "Proverbs are general truths, not guaranteed promises. Read them slowly, a few at a time. Notice the contrast between the wise and the foolish, the righteous and the wicked, and the repeated call to fear the LORD."
+}

@@ -1,0 +1,86 @@
+{
+  "order": 58,
+  "name": "Hebrews",
+  "section": "New Testament: General Letters and Revelation",
+  "tagline": "Christ is better",
+  "author": "Not named in the text. The author is unknown, and several names have been suggested.",
+  "date": "Usually dated before AD 70, though not certain.",
+  "setting": "Written to believers tempted to turn back.",
+  "genre": "Sermon in the form of a letter.",
+  "theme": "Jesus is greater than angels, Moses, and the priests, and his sacrifice is final.",
+  "keyVerse": "Hebrews 4:14",
+  "outline": [
+    {
+      "ref": "1:1-2:18",
+      "label": "Jesus is greater than angels",
+      "level": 0
+    },
+    {
+      "ref": "1:1-4",
+      "label": "God has spoken by his Son",
+      "level": 1
+    },
+    {
+      "ref": "3:1-4:13",
+      "label": "Jesus is greater than Moses",
+      "level": 0
+    },
+    {
+      "ref": "3:1-6",
+      "label": "Faithful as a Son",
+      "level": 1
+    },
+    {
+      "ref": "4:14-7:28",
+      "label": "Jesus is the greater priest",
+      "level": 0
+    },
+    {
+      "ref": "4:14-5:10",
+      "label": "A sympathetic high priest",
+      "level": 1
+    },
+    {
+      "ref": "8:1-10:18",
+      "label": "The new covenant and sacrifice",
+      "level": 0
+    },
+    {
+      "ref": "8:1-13",
+      "label": "A better covenant",
+      "level": 1
+    },
+    {
+      "ref": "10:19-12:29",
+      "label": "Faith and endurance",
+      "level": 0
+    },
+    {
+      "ref": "10:19-39",
+      "label": "Draw near and hold fast",
+      "level": 1
+    },
+    {
+      "ref": "11:1-40",
+      "label": "The hall of faith",
+      "level": 1
+    },
+    {
+      "ref": "13:1-25",
+      "label": "Final instructions",
+      "level": 0
+    },
+    {
+      "ref": "13:1-19",
+      "label": "Love and obedience",
+      "level": 1
+    },
+    {
+      "ref": "13:20-25",
+      "label": "Benediction",
+      "level": 1
+    }
+  ],
+  "christInBook": "Hebrews presents Jesus as superior to the prophets, angels, Moses, and the Levitical priesthood. He is the great high priest and the once-for-all sacrifice who sat down at the right hand of God.",
+  "howToRead": "Hebrews alternates between exposition and warning. Notice the repeated word “better” and the five warning passages. The letter is written as a word of exhortation to endure."
+}

@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import { units, weekVerses, u, dayUrl } from '../../lib/data.js';
+import { clean } from '../../lib/text.js';
+---
+<Base title="Memory Verses" description="Every Sabbath verse and unit anchor verse, in the order you meet them.">
+  <div class="wrap">
+    <div class="page-head"><div class="label">Reference</div><h1>Memory Verses in Order</h1><p class="lede">Sabbath verses and unit verses</p><div class="orn">&#10086;</div></div>
+    <div class="narrow prose"><p>Each week has one memory verse, which you meet on Saturday and which closes every day that week. Each unit also has an anchor verse that you return to in the unit review. You do not have to memorize them perfectly. Read each verse, say it aloud a few times, and let it settle.</p></div>
+    <div class="center no-print" style="margin:1.4rem 0"><button type="button" class="btn" data-practice-toggle aria-pressed="false">Practice: show first letters only</button><p class="small muted" style="margin:.6rem 0 0">In practice mode, tap a verse to reveal it.</p></div>
+    <div class="chips no-print" style="justify-content:center;margin-bottom:1.5rem"><a class="chip" href="#units">Unit anchor verses</a><a class="chip" href="#weeks">Weekly Sabbath verses</a></div>
+
+    <div style="max-width:54rem;margin:0 auto">
+      <h2 id="units" style="margin-top:2rem">Unit Anchor Verses</h2>
+      {units.map((x) => (
+        <div class="verse-item"><div class="k"><a href={u(`unit/${x.id}/`)}>Unit {x.id}</a></div><div><div class="t" data-full={`“${clean(x.memoryText)}”`}>&#8220;{clean(x.memoryText)}&#8221;</div><div class="r">{x.memoryRef}</div></div></div>
+      ))}
+      <h2 id="weeks" style="margin-top:3.5rem">Weekly Sabbath Verses</h2>
+      {weekVerses.filter((v) => v.ref).map((v) => (
+        <div class="verse-item" data-day={v.day}><div class="k"><a href={dayUrl(v.day)}>Week {v.week}</a><div class="muted" style="letter-spacing:.1em">Day {v.day}</div></div><div><div class="t" data-full={`“${v.text}”`}>&#8220;{v.text}&#8221;</div><div class="r">{v.ref}</div></div></div>
+      ))}
+    </div>
+  </div>
+</Base>

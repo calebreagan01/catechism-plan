@@ -1,0 +1,81 @@
+{
+  "order": 65,
+  "name": "Jude",
+  "section": "New Testament: General Letters and Revelation",
+  "tagline": "Contend for the faith",
+  "author": "Jude, who calls himself a brother of James.",
+  "date": "Often dated in the 60s AD.",
+  "setting": "Written to warn against false teachers.",
+  "genre": "Short letter.",
+  "theme": "Defend the faith once delivered and keep yourselves in God’s love.",
+  "keyVerse": "Jude 24-25",
+  "outline": [
+    {
+      "ref": "1-2",
+      "label": "Greeting",
+      "level": 0
+    },
+    {
+      "ref": "1-2",
+      "label": "Jude, servant of Jesus Christ",
+      "level": 1
+    },
+    {
+      "ref": "3-4",
+      "label": "The reason for writing",
+      "level": 0
+    },
+    {
+      "ref": "3",
+      "label": "Contend for the faith",
+      "level": 1
+    },
+    {
+      "ref": "4",
+      "label": "Ungodly people have crept in",
+      "level": 1
+    },
+    {
+      "ref": "5-16",
+      "label": "The danger of false teachers",
+      "level": 0
+    },
+    {
+      "ref": "5-7",
+      "label": "Examples from the past",
+      "level": 1
+    },
+    {
+      "ref": "8-13",
+      "label": "Their character",
+      "level": 1
+    },
+    {
+      "ref": "14-16",
+      "label": "The prophecy of Enoch",
+      "level": 1
+    },
+    {
+      "ref": "17-23",
+      "label": "How to persevere",
+      "level": 0
+    },
+    {
+      "ref": "17-19",
+      "label": "Remember the apostles’ warning",
+      "level": 1
+    },
+    {
+      "ref": "20-23",
+      "label": "Build yourselves up and show mercy",
+      "level": 1
+    },
+    {
+      "ref": "24-25",
+      "label": "Doxology",
+      "level": 0
+    }
+  ],
+  "christInBook": "Jude calls Jesus Christ our only Master and Lord (v. 4) and ends by pointing to the one who is able to keep us from stumbling and present us blameless with great joy (v. 24).",
+  "howToRead": "Jude is a short, urgent letter. Notice the many examples from Scripture and Jewish tradition, and the call to build yourself up and keep yourself in the love of God."
+}

@@ -1,0 +1,53 @@
+---
+import '@fontsource/eb-garamond/400.css';
+import '@fontsource/eb-garamond/500.css';
+import '@fontsource/eb-garamond/600.css';
+import '@fontsource/eb-garamond/400-italic.css';
+import '@fontsource/eb-garamond/500-italic.css';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+import '@fontsource/source-serif-4/400.css';
+import '@fontsource/source-serif-4/600.css';
+import '@fontsource/source-serif-4/400-italic.css';
+import '../styles/global.css';
+import '../styles/modern.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site, u } from '../lib/data.js';
+const { title, description = site.subtitle, wide = false, bodyClass = '' } = Astro.props;
+const full = title ? `${title} | ${site.title}` : `${site.title}: ${site.subtitle}`;
+---
+<!doctype html>
+<html lang="en" data-base={u('')} data-look={site.look || 'classic'}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{full}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" href={u('favicon.svg')} type="image/svg+xml" />
+  <style set:html={`:root{--accent:${site.accent || '#8A4B16'}}`}></style>
+  <script is:inline>
+    try {
+      var q = new URLSearchParams(location.search).get('look');
+      if (q === 'classic' || q === 'modern') sessionStorage.setItem('catechism.look', q);
+      var lk = sessionStorage.getItem('catechism.look'); if (lk) document.documentElement.setAttribute('data-look', lk);
+    } catch (e) {}
+    try {
+      var s = JSON.parse(localStorage.getItem('catechism.v1') || '{}');
+      if (s.theme) document.documentElement.setAttribute('data-theme', s.theme);
+      if (s.size) document.documentElement.setAttribute('data-size', s.size);
+    } catch (e) {}
+  </script>
+</head>
+<body class={bodyClass}>
+  <a class="skip" href="#main">Skip to the content</a>
+  <Header />
+  <main id="main" data-pagefind-body>
+    <slot />
+  </main>
+  <Footer />
+  <script is:inline src={u('js/app.js')} defer></script>
+</body>
+</html>

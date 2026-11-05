@@ -1,0 +1,91 @@
+{
+  "order": 13,
+  "name": "1 Chronicles",
+  "section": "Old Testament: History",
+  "tagline": "Israel’s story retold for the returned exiles",
+  "author": "Not named in the text. Tradition names Ezra.",
+  "date": "Written after the exile, probably in the 400s or 300s BC.",
+  "setting": "Written to people who had returned from exile and were rebuilding their identity.",
+  "genre": "Genealogy and historical narrative.",
+  "theme": "God’s covenant with David and the worship of the temple remain at the center of his people’s hope.",
+  "keyVerse": "1 Chronicles 17:14",
+  "outline": [
+    {
+      "ref": "1:1-9:44",
+      "label": "Genealogies from Adam to the exile",
+      "level": 0
+    },
+    {
+      "ref": "1:1-54",
+      "label": "From Adam to Abraham’s descendants",
+      "level": 1
+    },
+    {
+      "ref": "2:1-4:23",
+      "label": "The tribe of Judah and the house of David",
+      "level": 1
+    },
+    {
+      "ref": "10:1-12:40",
+      "label": "From Saul’s death to David’s rise",
+      "level": 0
+    },
+    {
+      "ref": "10:1-14",
+      "label": "The death of Saul",
+      "level": 1
+    },
+    {
+      "ref": "11:1-12:40",
+      "label": "David’s mighty men and supporters",
+      "level": 1
+    },
+    {
+      "ref": "13:1-16:43",
+      "label": "The ark brought to Jerusalem",
+      "level": 0
+    },
+    {
+      "ref": "13:1-14:17",
+      "label": "The ark and the blessing on Obed-edom",
+      "level": 1
+    },
+    {
+      "ref": "15:1-16:43",
+      "label": "The procession and the psalm of thanks",
+      "level": 1
+    },
+    {
+      "ref": "17:1-21:30",
+      "label": "The Davidic covenant and wars",
+      "level": 0
+    },
+    {
+      "ref": "17:1-27",
+      "label": "The promise of an eternal house",
+      "level": 1
+    },
+    {
+      "ref": "18:1-20:8",
+      "label": "David’s victories",
+      "level": 1
+    },
+    {
+      "ref": "22:1-29:30",
+      "label": "Preparing for the temple",
+      "level": 0
+    },
+    {
+      "ref": "22:1-19",
+      "label": "David’s charge to Solomon",
+      "level": 1
+    },
+    {
+      "ref": "23:1-27:34",
+      "label": "The Levites and the leaders",
+      "level": 1
+    }
+  ],
+  "christInBook": "The Chronicler holds the covenant with David at the center, a promise that the Messiah would come from David’s line. The temple preparations point toward the final dwelling of God with his people.",
+  "howToRead": "Chronicles retells Israel’s history from the viewpoint of the returned exiles. Read the opening genealogies as a statement that God’s people have a name, a place, and a future."
+}

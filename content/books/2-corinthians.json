@@ -1,0 +1,76 @@
+{
+  "order": 47,
+  "name": "2 Corinthians",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Weakness and ministry",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 55 to 56.",
+  "setting": "Paul defends his ministry and urges generosity and reconciliation.",
+  "genre": "Letter.",
+  "theme": "God’s power appears in weakness, and the new covenant ministry gives new life.",
+  "keyVerse": "2 Corinthians 12:9",
+  "outline": [
+    {
+      "ref": "1:1-7:16",
+      "label": "Paul’s ministry",
+      "level": 0
+    },
+    {
+      "ref": "1:1-2:17",
+      "label": "Comfort and the change of plans",
+      "level": 1
+    },
+    {
+      "ref": "3:1-4:6",
+      "label": "The new covenant ministry",
+      "level": 1
+    },
+    {
+      "ref": "4:7-5:21",
+      "label": "Treasure in jars of clay and reconciliation",
+      "level": 1
+    },
+    {
+      "ref": "6:1-7:16",
+      "label": "Open hearts and godly grief",
+      "level": 1
+    },
+    {
+      "ref": "8:1-9:15",
+      "label": "The collection for Jerusalem",
+      "level": 0
+    },
+    {
+      "ref": "8:1-24",
+      "label": "The example of the Macedonians",
+      "level": 1
+    },
+    {
+      "ref": "9:1-15",
+      "label": "God loves a cheerful giver",
+      "level": 1
+    },
+    {
+      "ref": "10:1-13:14",
+      "label": "Paul defends his apostleship",
+      "level": 0
+    },
+    {
+      "ref": "10:1-18",
+      "label": "Paul’s authority",
+      "level": 1
+    },
+    {
+      "ref": "11:1-12:10",
+      "label": "The fool’s speech and the thorn in the flesh",
+      "level": 1
+    },
+    {
+      "ref": "12:11-13:14",
+      "label": "Final warnings and greetings",
+      "level": 1
+    }
+  ],
+  "christInBook": "Paul says that the one who knew no sin became sin for us (5:21), that Christ’s grace was sufficient in weakness (12:9), and that God has shone in our hearts to give the light of the knowledge of the glory of God in the face of Christ (4:6).",
+  "howToRead": "2 Corinthians is Paul’s most personal letter. Notice how he defends his ministry not by showing strength, but by showing weakness, and how he ties his suffering to the cross."
+}

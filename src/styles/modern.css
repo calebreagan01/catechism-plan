@@ -1,0 +1,57 @@
+/* The "modern" look: white page, Inter for headings and labels, Source Serif 4 for reading text,
+   pill buttons and rounded cards. Switch with "look" in content/site.json ("classic" or "modern"),
+   or preview any page by adding ?look=modern to its address. */
+:root[data-look='modern'] { --serif: 'Source Serif 4', Georgia, serif; --sans: 'Inter', system-ui, sans-serif; }
+:root[data-look='modern']:not([data-theme='dark']) {
+  --paper: #FFFFFF; --card: #F7F5F3; --ink: #16161A; --muted: #5C5754; --rule: #E7E3DF; --tint: #F8F1EA; --on-accent: #FFFFFF;
+}
+:root[data-look='modern'] body { font-family: var(--serif); font-size: .95rem; }
+:root[data-look='modern'] h1, :root[data-look='modern'] h2, :root[data-look='modern'] h3,
+:root[data-look='modern'] .brand, :root[data-look='modern'] .label, :root[data-look='modern'] .btn,
+:root[data-look='modern'] .tag, :root[data-look='modern'] .chip, :root[data-look='modern'] .iconbtn,
+:root[data-look='modern'] .menu nav, :root[data-look='modern'] .menu-btn, :root[data-look='modern'] .prog,
+:root[data-look='modern'] table.plain th, :root[data-look='modern'] .ck th, :root[data-look='modern'] .steps7 .h,
+:root[data-look='modern'] .verse-item .k, :root[data-look='modern'] .verse-item .r, :root[data-look='modern'] .facts dt,
+:root[data-look='modern'] .site-footer, :root[data-look='modern'] .unit-list, :root[data-look='modern'] .rail-steps,
+:root[data-look='modern'] .num, :root[data-look='modern'] .row-list .a, :root[data-look='modern'] .letters,
+:root[data-look='modern'] .psalm-grid, :root[data-look='modern'] .journey, :root[data-look='modern'] .stat,
+:root[data-look='modern'] .ck td .dn, :root[data-look='modern'] .tile .tag { font-family: var(--sans); }
+:root[data-look='modern'] h1, :root[data-look='modern'] h2 { font-style: normal; font-weight: 700; letter-spacing: -.03em; }
+:root[data-look='modern'] h1 { font-size: 3.2rem; line-height: 1.05; }
+:root[data-look='modern'] h2 { font-size: 1.75rem; }
+:root[data-look='modern'] .brand { font-style: normal; font-weight: 700; letter-spacing: -.02em; font-size: 1.45rem; }
+:root[data-look='modern'] .brand::after { content: '.'; color: var(--accent); }
+:root[data-look='modern'] .label { font-size: .68rem; letter-spacing: .14em; }
+:root[data-look='modern'] .menu nav { text-transform: none; letter-spacing: 0; font-size: .82rem; font-weight: 500; }
+:root[data-look='modern'] .iconbtn, :root[data-look='modern'] .chip { text-transform: none; letter-spacing: 0; border-radius: 999px; font-size: .72rem; }
+:root[data-look='modern'] .prog { font-style: normal; font-size: .72rem; }
+:root[data-look='modern'] .meter, :root[data-look='modern'] .meter > span { border-radius: 3px; height: 6px; }
+:root[data-look='modern'] .btn { border-radius: 999px; text-transform: none; letter-spacing: 0; font-size: .85rem; font-weight: 600; min-height: 2.8rem; border-width: 1.5px; }
+:root[data-look='modern'] .btn.dark { background: var(--ink); color: var(--paper); }
+:root[data-look='modern'] .card, :root[data-look='modern'] .tile, :root[data-look='modern'] .prompt-list > div { border-radius: 20px; border-color: var(--rule); }
+:root[data-look='modern'] .framed { border-radius: 28px; outline: 0; margin: 0; background: var(--tint); border-color: transparent; }
+:root[data-look='modern'] .framed.card { background: var(--card); }
+:root[data-look='modern'] .orn { display: none; }
+:root[data-look='modern'] .page-head h1, :root[data-look='modern'] .day-head h1, :root[data-look='modern'] .hero h1 { font-style: normal; }
+:root[data-look='modern'] .hero h1 { font-size: 4rem; letter-spacing: -.035em; }
+:root[data-look='modern'] .hero .lead, :root[data-look='modern'] .lede, :root[data-look='modern'] .tile .d, :root[data-look='modern'] .tile .t { font-family: var(--serif); }
+:root[data-look='modern'] .tile .t { font-family: var(--sans); font-style: normal; font-weight: 700; letter-spacing: -.02em; font-size: 1.2rem; }
+:root[data-look='modern'] .today-card .passage { font-family: var(--sans); font-style: normal; font-weight: 700; letter-spacing: -.03em; font-size: 2.2rem; }
+:root[data-look='modern'] .today-card .theme, :root[data-look='modern'] .day-head .theme, :root[data-look='modern'] .reading-note { font-family: var(--serif); }
+:root[data-look='modern'] .day-head h1 { font-size: 3.2rem; }
+:root[data-look='modern'] .day-sec > h2 { font-size: 1.7rem; }
+:root[data-look='modern'] .day-sec p, :root[data-look='modern'] .obs li { font-family: var(--serif); font-size: 1.05rem; line-height: 1.75; }
+:root[data-look='modern'] .reading-note { border-left: 0; background: var(--tint); border-radius: 20px; padding: 1.4rem 1.6rem; font-size: 1.05rem; }
+:root[data-look='modern'] .verse-panel .v, :root[data-look='modern'] .verse-big .v, :root[data-look='modern'] .verse-remind .v, :root[data-look='modern'] .verse-item .t { font-style: normal; font-family: var(--serif); }
+:root[data-look='modern'] .prompt-list > div, :root[data-look='modern'] .q-list { font-style: normal; font-family: var(--serif); }
+:root[data-look='modern'] .journey a, :root[data-look='modern'] .psalm-grid a, :root[data-look='modern'] .letters a, :root[data-look='modern'] .ck td, :root[data-look='modern'] .years > div { border-radius: 8px; }
+:root[data-look='modern'] .years > div { border-radius: 0; }
+:root[data-look='modern'] .years div div { font-style: normal; font-family: var(--sans); }
+:root[data-look='modern'] .band { background: var(--card); border-color: var(--rule); }
+:root[data-look='modern'] .rail-steps a.active .dot { background: var(--accent); }
+:root[data-look='modern'] .unit-list a { border-radius: 10px; border-left: 0; }
+:root[data-look='modern'] .unit-list a[aria-current='page'] { background: var(--tint); }
+:root[data-look='modern'] .unit-list a.rest { font-style: normal; }
+:root[data-look='modern'] .site-footer { font-style: normal; }
+:root[data-look='modern'] input[type='search'], :root[data-look='modern'] input[type='text'], :root[data-look='modern'] input[type='date'], :root[data-look='modern'] input[type='number'] { border-radius: 999px; font-family: var(--sans); }
+@media (max-width: 640px) { :root[data-look='modern'] .hero h1, :root[data-look='modern'] h1, :root[data-look='modern'] .day-head h1 { font-size: 2.3rem; } }

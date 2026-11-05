@@ -1,0 +1,76 @@
+{
+  "order": 8,
+  "name": "Ruth",
+  "section": "Old Testament: History",
+  "tagline": "Faithful love in dark times",
+  "author": "Not named in the text. Tradition has said Samuel.",
+  "date": "Set in the time of the judges. Written probably after David’s rise.",
+  "setting": "A family from Bethlehem moves to Moab and returns.",
+  "genre": "Short narrative.",
+  "theme": "God provides a redeemer for Naomi and Ruth, and through them prepares the way for David.",
+  "keyVerse": "Ruth 4:14",
+  "outline": [
+    {
+      "ref": "1:1-22",
+      "label": "Loss in Moab and return to Bethlehem",
+      "level": 0
+    },
+    {
+      "ref": "1:1-5",
+      "label": "Famine, exile, and three deaths",
+      "level": 1
+    },
+    {
+      "ref": "1:6-18",
+      "label": "Ruth’s pledge to Naomi",
+      "level": 1
+    },
+    {
+      "ref": "2:1-23",
+      "label": "Ruth gleans in Boaz’s field",
+      "level": 0
+    },
+    {
+      "ref": "2:1-7",
+      "label": "Ruth meets Boaz",
+      "level": 1
+    },
+    {
+      "ref": "2:8-17",
+      "label": "Boaz’s kindness",
+      "level": 1
+    },
+    {
+      "ref": "3:1-18",
+      "label": "Ruth at the threshing floor",
+      "level": 0
+    },
+    {
+      "ref": "3:1-5",
+      "label": "Naomi’s plan",
+      "level": 1
+    },
+    {
+      "ref": "3:6-15",
+      "label": "Ruth and Boaz at midnight",
+      "level": 1
+    },
+    {
+      "ref": "4:1-22",
+      "label": "Boaz redeems",
+      "level": 0
+    },
+    {
+      "ref": "4:1-12",
+      "label": "The nearer kinsman and the gate",
+      "level": 1
+    },
+    {
+      "ref": "4:13-17",
+      "label": "Marriage and the birth of Obed",
+      "level": 1
+    }
+  ],
+  "christInBook": "Boaz is a picture of the kinsman redeemer, one who buys back what was lost. Ruth, a foreigner, becomes the great-grandmother of David and appears in the family line of Jesus (Matthew 1:5).",
+  "howToRead": "Ruth is a short story with careful structure. Watch for the words “redeem,” “kindness,” and “refuge.” Notice how ordinary acts of faithfulness carry God’s larger plan."
+}

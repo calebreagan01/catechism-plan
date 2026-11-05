@@ -1,0 +1,81 @@
+{
+  "order": 57,
+  "name": "Philemon",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "A plea for a runaway slave",
+  "author": "The apostle Paul.",
+  "date": "Usually dated about AD 60 to 62.",
+  "setting": "Paul writes to Philemon about Onesimus.",
+  "genre": "Personal letter.",
+  "theme": "The gospel changes relationships, making masters and slaves brothers.",
+  "keyVerse": "Philemon 15-16",
+  "outline": [
+    {
+      "ref": "1-3",
+      "label": "Greeting",
+      "level": 0
+    },
+    {
+      "ref": "1-2",
+      "label": "The senders and recipients",
+      "level": 1
+    },
+    {
+      "ref": "3",
+      "label": "Grace and peace",
+      "level": 1
+    },
+    {
+      "ref": "4-7",
+      "label": "Thanksgiving and prayer",
+      "level": 0
+    },
+    {
+      "ref": "4-5",
+      "label": "Philemon’s faith and love",
+      "level": 1
+    },
+    {
+      "ref": "6-7",
+      "label": "Prayer for the sharing of faith",
+      "level": 1
+    },
+    {
+      "ref": "8-16",
+      "label": "The appeal for Onesimus",
+      "level": 0
+    },
+    {
+      "ref": "8-11",
+      "label": "Appeal for my child",
+      "level": 1
+    },
+    {
+      "ref": "12-16",
+      "label": "No longer as a slave but as a beloved brother",
+      "level": 1
+    },
+    {
+      "ref": "17-22",
+      "label": "The request",
+      "level": 0
+    },
+    {
+      "ref": "17-19",
+      "label": "Charge it to my account",
+      "level": 1
+    },
+    {
+      "ref": "20-22",
+      "label": "Refresh my heart and prepare a guest room",
+      "level": 1
+    },
+    {
+      "ref": "23-25",
+      "label": "Closing greetings",
+      "level": 0
+    }
+  ],
+  "christInBook": "Paul appeals for Onesimus on the basis of love, as one who stands in Christ’s place for a debtor, “charge that to my account” (v. 18). The letter pictures what Christ has done for us.",
+  "howToRead": "Philemon is a personal letter and a model of persuasion. Notice how Paul appeals instead of commanding, and how he reframes Onesimus as a brother."
+}

@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import { marked } from 'marked';
+import { page, units, psalmDays, u, dayUrl } from '../../lib/data.js';
+import { clean, esc } from '../../lib/text.js';
+const pg = page('psalms-guide');
+const tbl = `<div class="scroll-x"><table class="plain"><thead><tr><th>Unit</th><th>How the Psalms are used</th></tr></thead><tbody>${units.map((x) => `<tr><td class="num"><a href="${u(`unit/${x.id}/`)}">${x.id}</a></td><td><strong>${esc(x.title)}.</strong> ${esc(clean(x.psalmsNote))}</td></tr>`).join('')}</tbody></table></div>`;
+let body = marked.parse(clean(pg.body));
+body = body.replace(/<p>\{\{UNIT_PSALMS\}\}<\/p>/, tbl);
+const nums = Array.from({ length: 150 }, (_, i) => String(i + 1));
+---
+<Base title={pg.title} description={pg.subtitle}>
+  <div class="wrap">
+    <div class="page-head"><div class="label">{pg.kicker}</div><h1>{pg.title}</h1><p class="lede">{pg.subtitle}</p><div class="orn">&#10086;</div></div>
+    <div class="narrow prose" set:html={body} />
+    <section class="section" style="margin-top:2rem" id="find">
+      <h2 class="center">Find a psalm</h2>
+      <p class="center muted" style="font-style:italic">Select a number to see every day that reads it.</p>
+      <div class="psalm-grid" style="margin-top:1.2rem">{nums.map((n) => <a href={`#psalm-${n}`}>{n}</a>)}</div>
+      <div style="margin-top:2.5rem;columns:3 16rem;column-gap:2.5rem">
+        {nums.map((n) => (
+          <div id={`psalm-${n}`} style="break-inside:avoid;padding:.5rem 0;border-bottom:1px dotted var(--rule)">
+            <strong class="num">Psalm {n}</strong>
+            <div class="small">{(psalmDays[n] || []).length ? (psalmDays[n] || []).map((d, i) => <><a href={dayUrl(d)} data-day={d}>Day {d}</a>{i < psalmDays[n].length - 1 ? ', ' : ''}</>) : <span class="muted">Not read separately</span>}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>

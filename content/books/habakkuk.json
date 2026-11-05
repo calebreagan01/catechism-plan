@@ -1,0 +1,66 @@
+{
+  "order": 35,
+  "name": "Habakkuk",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "Questions and faith",
+  "author": "Habakkuk.",
+  "date": "Probably about 610 to 600 BC.",
+  "setting": "Habakkuk asks why God allows injustice in Judah and then why he uses Babylon.",
+  "genre": "Prophecy, dialogue, and prayer.",
+  "theme": "The righteous live by faith, trusting God even when circumstances are hard.",
+  "keyVerse": "Habakkuk 2:4",
+  "outline": [
+    {
+      "ref": "1:1-11",
+      "label": "First complaint and answer",
+      "level": 0
+    },
+    {
+      "ref": "1:1-4",
+      "label": "How long, O LORD",
+      "level": 1
+    },
+    {
+      "ref": "1:5-11",
+      "label": "I am doing a work: Babylon",
+      "level": 1
+    },
+    {
+      "ref": "1:12-2:20",
+      "label": "Second complaint and answer",
+      "level": 0
+    },
+    {
+      "ref": "1:12-2:1",
+      "label": "Why are you silent",
+      "level": 1
+    },
+    {
+      "ref": "2:2-5",
+      "label": "The righteous live by faith",
+      "level": 1
+    },
+    {
+      "ref": "2:6-20",
+      "label": "Five woes",
+      "level": 1
+    },
+    {
+      "ref": "3:1-19",
+      "label": "Habakkuk’s prayer",
+      "level": 0
+    },
+    {
+      "ref": "3:1-15",
+      "label": "The LORD comes in glory",
+      "level": 1
+    },
+    {
+      "ref": "3:16-19",
+      "label": "Though the fig tree should not blossom",
+      "level": 1
+    }
+  ],
+  "christInBook": "Habakkuk 2:4, “the righteous shall live by his faith,” is quoted three times in the New Testament (Romans 1:17; Galatians 3:11; Hebrews 10:38). The just live by faith in Christ.",
+  "howToRead": "Habakkuk is a conversation between the prophet and God. Follow the sequence: complaint, answer, complaint, answer, and then a prayer of trust."
+}

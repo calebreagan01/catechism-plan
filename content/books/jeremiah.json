@@ -1,0 +1,76 @@
+{
+  "order": 24,
+  "name": "Jeremiah",
+  "section": "Old Testament: The Major Prophets",
+  "tagline": "The weeping prophet and the new covenant",
+  "author": "Jeremiah, with Baruch as scribe.",
+  "date": "Ministry from about 627 to 580 BC.",
+  "setting": "The last decades of Judah and the fall of Jerusalem to Babylon.",
+  "genre": "Prophecy, poetry, and narrative.",
+  "theme": "God judges persistent sin yet promises a new covenant written on the heart.",
+  "keyVerse": "Jeremiah 31:33",
+  "outline": [
+    {
+      "ref": "1:1-25:38",
+      "label": "Warnings to Judah",
+      "level": 0
+    },
+    {
+      "ref": "1:1-19",
+      "label": "Jeremiah’s call",
+      "level": 1
+    },
+    {
+      "ref": "26:1-35:19",
+      "label": "Conflict and promise",
+      "level": 0
+    },
+    {
+      "ref": "26:1-29:32",
+      "label": "Prophets in conflict and the letter to the exiles",
+      "level": 1
+    },
+    {
+      "ref": "30:1-33:26",
+      "label": "The book of consolation",
+      "level": 1
+    },
+    {
+      "ref": "36:1-45:5",
+      "label": "Jeremiah and the fall",
+      "level": 0
+    },
+    {
+      "ref": "36:1-32",
+      "label": "The scroll burned",
+      "level": 1
+    },
+    {
+      "ref": "37:1-39:18",
+      "label": "The siege and the fall of Jerusalem",
+      "level": 1
+    },
+    {
+      "ref": "46:1-51:64",
+      "label": "Oracles against the nations",
+      "level": 0
+    },
+    {
+      "ref": "46:1-49:39",
+      "label": "Egypt, Philistia, Moab, Ammon, Edom, and others",
+      "level": 1
+    },
+    {
+      "ref": "50:1-51:64",
+      "label": "Babylon",
+      "level": 1
+    },
+    {
+      "ref": "52:1-34",
+      "label": "The fall of Jerusalem recalled",
+      "level": 0
+    }
+  ],
+  "christInBook": "Jeremiah, the weeping prophet who was rejected by his people, points to Christ, who wept over Jerusalem. The promise of a new covenant (31:31-34) is fulfilled in Jesus, who said, “This cup is the new covenant in my blood” (Luke 22:20).",
+  "howToRead": "The book is not in chronological order. Read it as a collage of sermons, poems, stories, and visions. Notice Jeremiah’s personal laments, and look for the promise of a new covenant, the central hope of the book."
+}

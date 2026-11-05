@@ -1,0 +1,21 @@
+---
+import { days, dayTitle, shortTheme, units, u } from '../lib/data.js';
+const d = days[0];
+---
+<div class="framed card today-card" data-today style="display:flex;flex-direction:column;gap:1.1rem;padding:2rem">
+  <div style="display:flex;justify-content:space-between;gap:1rem" class="label"><span>Today</span><span class="muted" data-t="week">Week 1 &middot; Year 1</span></div>
+  <div class="center">
+    <div class="label" data-t="label">Day 1 &middot; Unit 1</div>
+    <div class="passage" style="margin-top:.5rem" data-t="passage">{dayTitle(d)}</div>
+    <div class="theme" style="margin-top:.5rem" data-t="theme">{shortTheme(d)}</div>
+  </div>
+  <div class="orn">&#10086;</div>
+  <div class="chips" style="justify-content:center">
+    {['Reading', 'Setting the Scene', 'Observation', 'Interpretation', 'Connection', 'Application', 'Prayer'].map((s) => <span class="chip" style="cursor:default">{s}</span>)}
+  </div>
+  <div class="foot">
+    <span class="muted" style="font-style:italic">About 15 to 25 minutes</span>
+    <a class="btn dark" data-t="link" href={u('day/1/')}>Begin today&#8217;s reading</a>
+  </div>
+  <p class="small muted" data-t="alt" hidden style="margin:0;text-align:center"></p>
+</div>

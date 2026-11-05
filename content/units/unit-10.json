@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "year": 1,
+  "title": "Wisdom Literature",
+  "subtitle": "Proverbs, Ecclesiastes, Song of Solomon",
+  "theme": "How to live in God’s world. Wisdom, meaning, and love as covenant life.",
+  "firstDay": 302,
+  "lastDay": 333,
+  "memoryRef": "Proverbs 3:5-6",
+  "memoryText": "Trust in the LORD with all your heart, and do not lean on your own understanding.",
+  "reviewQuestions": [
+    "What is the “fear of the LORD” and why is it the beginning of wisdom?",
+    "How does Ecclesiastes’s conclusion answer the problem of vanity?",
+    "How does Wisdom in Proverbs 8 point us toward Christ?",
+    "What is the Song of Solomon ultimately about, and how should we read it?"
+  ],
+  "psalmsNote": "Psalms 19 and 119 beside Proverbs. Psalms 49 and 73 beside Ecclesiastes. Psalm 45 beside the Song of Solomon."
+}

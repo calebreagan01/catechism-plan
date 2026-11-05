@@ -1,0 +1,76 @@
+{
+  "order": 17,
+  "name": "Esther",
+  "section": "Old Testament: History",
+  "tagline": "God’s hidden hand",
+  "author": "Not named in the text.",
+  "date": "Set about 480 to 470 BC, in the reign of the Persian king Ahasuerus.",
+  "setting": "Jews living in Persia, outside the land.",
+  "genre": "Historical narrative.",
+  "theme": "God preserves his people through ordinary events, even when his name is not mentioned.",
+  "keyVerse": "Esther 4:14",
+  "outline": [
+    {
+      "ref": "1:1-2:23",
+      "label": "Esther becomes queen",
+      "level": 0
+    },
+    {
+      "ref": "1:1-22",
+      "label": "Vashti removed",
+      "level": 1
+    },
+    {
+      "ref": "2:1-18",
+      "label": "Esther chosen",
+      "level": 1
+    },
+    {
+      "ref": "3:1-5:14",
+      "label": "Haman’s plot",
+      "level": 0
+    },
+    {
+      "ref": "3:1-15",
+      "label": "The decree to destroy the Jews",
+      "level": 1
+    },
+    {
+      "ref": "4:1-17",
+      "label": "Mordecai’s plea and Esther’s decision",
+      "level": 1
+    },
+    {
+      "ref": "6:1-8:17",
+      "label": "The reversal",
+      "level": 0
+    },
+    {
+      "ref": "6:1-14",
+      "label": "Mordecai honored",
+      "level": 1
+    },
+    {
+      "ref": "7:1-10",
+      "label": "Esther’s second banquet and Haman’s fall",
+      "level": 1
+    },
+    {
+      "ref": "9:1-10:3",
+      "label": "Purim established",
+      "level": 0
+    },
+    {
+      "ref": "9:1-19",
+      "label": "The Jews’ deliverance",
+      "level": 1
+    },
+    {
+      "ref": "9:20-32",
+      "label": "The feast of Purim",
+      "level": 1
+    }
+  ],
+  "christInBook": "God preserves his people when they cannot rescue themselves, and the line of the Messiah survives the plot to destroy it. Mordecai and Esther are courageous mediators who point to the greater mediator who gave himself for his people.",
+  "howToRead": "God is never named in Esther, yet his providence is everywhere. Look for reversals: the gallows built for Mordecai, the king’s sleepless night, and the feast Haman never enjoys."
+}

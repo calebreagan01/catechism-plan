@@ -1,0 +1,66 @@
+{
+  "order": 56,
+  "name": "Titus",
+  "section": "New Testament: Paul’s Letters",
+  "tagline": "Good works that adorn the gospel",
+  "author": "The apostle Paul.",
+  "date": "Usually dated in the early to mid-60s AD.",
+  "setting": "Written to Titus on the island of Crete.",
+  "genre": "Pastoral letter.",
+  "theme": "The grace of God leads to godly living.",
+  "keyVerse": "Titus 2:11-12",
+  "outline": [
+    {
+      "ref": "1:1-16",
+      "label": "Appointing elders",
+      "level": 0
+    },
+    {
+      "ref": "1:1-4",
+      "label": "Greeting",
+      "level": 1
+    },
+    {
+      "ref": "1:5-9",
+      "label": "Qualifications for elders",
+      "level": 1
+    },
+    {
+      "ref": "1:10-16",
+      "label": "Rebuking false teachers",
+      "level": 1
+    },
+    {
+      "ref": "2:1-15",
+      "label": "Teaching for every group",
+      "level": 0
+    },
+    {
+      "ref": "2:1-10",
+      "label": "Older men and women, younger men, and slaves",
+      "level": 1
+    },
+    {
+      "ref": "2:11-15",
+      "label": "The grace of God has appeared",
+      "level": 1
+    },
+    {
+      "ref": "3:1-15",
+      "label": "Doing good",
+      "level": 0
+    },
+    {
+      "ref": "3:1-8",
+      "label": "Saved not by works but by mercy",
+      "level": 1
+    },
+    {
+      "ref": "3:9-15",
+      "label": "Final instructions",
+      "level": 1
+    }
+  ],
+  "christInBook": "Paul says that Christ Jesus gave himself for us to redeem us from all lawlessness and to purify for himself a people for his own possession (2:14). Our hope is the appearing of our great God and Savior, Jesus Christ.",
+  "howToRead": "Titus is a short letter about how sound doctrine leads to good works. Notice the repeated call to “good works” and to a life that adorns the gospel."
+}

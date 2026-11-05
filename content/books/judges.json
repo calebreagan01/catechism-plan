@@ -1,0 +1,81 @@
+{
+  "order": 7,
+  "name": "Judges",
+  "section": "Old Testament: History",
+  "tagline": "A cycle of sin, rescue, and decline",
+  "author": "Not named in the text. Jewish tradition names Samuel.",
+  "date": "Covers the period between Joshua and the monarchy, roughly 1200 to 1050 BC.",
+  "setting": "Israel in the land without a king, surrounded by other peoples.",
+  "genre": "Historical narrative.",
+  "theme": "Israel repeatedly turns from God, and God repeatedly raises up deliverers, yet the people grow worse and a king is needed.",
+  "keyVerse": "Judges 21:25",
+  "outline": [
+    {
+      "ref": "1:1-3:6",
+      "label": "Why the land was not fully taken",
+      "level": 0
+    },
+    {
+      "ref": "1:1-36",
+      "label": "Incomplete conquest",
+      "level": 1
+    },
+    {
+      "ref": "2:1-5",
+      "label": "The angel at Bochim",
+      "level": 1
+    },
+    {
+      "ref": "2:6-3:6",
+      "label": "The cycle introduced",
+      "level": 1
+    },
+    {
+      "ref": "3:7-16:31",
+      "label": "The judges",
+      "level": 0
+    },
+    {
+      "ref": "3:7-11",
+      "label": "Othniel",
+      "level": 1
+    },
+    {
+      "ref": "3:12-30",
+      "label": "Ehud",
+      "level": 1
+    },
+    {
+      "ref": "3:31",
+      "label": "Shamgar",
+      "level": 1
+    },
+    {
+      "ref": "4:1-5:31",
+      "label": "Deborah, Barak, and Jael",
+      "level": 1
+    },
+    {
+      "ref": "17:1-21:25",
+      "label": "Israel’s moral collapse",
+      "level": 0
+    },
+    {
+      "ref": "17:1-18:31",
+      "label": "Micah’s idol and the tribe of Dan",
+      "level": 1
+    },
+    {
+      "ref": "19:1-30",
+      "label": "The Levite and his concubine",
+      "level": 1
+    },
+    {
+      "ref": "20:1-21:25",
+      "label": "Civil war against Benjamin",
+      "level": 1
+    }
+  ],
+  "christInBook": "Each judge is a flawed rescuer, and the book keeps asking for a king who will be better. The true Judge and Deliverer is Jesus, who rescues once for all and reigns forever.",
+  "howToRead": "Read the book as a downward spiral: sin, oppression, cry for help, deliverance, and then relapse. The refrain “In those days there was no king in Israel” signals what the book is asking."
+}

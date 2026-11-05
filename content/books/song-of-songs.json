@@ -1,0 +1,66 @@
+{
+  "order": 22,
+  "name": "Song of Songs",
+  "section": "Old Testament: Wisdom and Poetry",
+  "tagline": "The beauty of married love",
+  "author": "Attributed in the title to Solomon.",
+  "date": "Traditionally dated to the 900s BC. Date of final form is debated.",
+  "setting": "A woman and a man exchange love poems.",
+  "genre": "Love poetry.",
+  "theme": "God made love and marriage good, and the church has long seen in it a picture of Christ and his people.",
+  "keyVerse": "Song of Songs 8:6-7",
+  "outline": [
+    {
+      "ref": "1:1-2:7",
+      "label": "Longing and delight",
+      "level": 0
+    },
+    {
+      "ref": "2:8-3:5",
+      "label": "Spring and searching",
+      "level": 0
+    },
+    {
+      "ref": "3:6-5:1",
+      "label": "The wedding",
+      "level": 0
+    },
+    {
+      "ref": "3:6-11",
+      "label": "The royal procession",
+      "level": 1
+    },
+    {
+      "ref": "5:2-6:3",
+      "label": "A dream of absence",
+      "level": 0
+    },
+    {
+      "ref": "5:2-8",
+      "label": "He knocks and is gone",
+      "level": 1
+    },
+    {
+      "ref": "6:4-8:4",
+      "label": "Renewed praise",
+      "level": 0
+    },
+    {
+      "ref": "6:4-7:9",
+      "label": "The lover’s praise",
+      "level": 1
+    },
+    {
+      "ref": "8:5-14",
+      "label": "Love as strong as death",
+      "level": 0
+    },
+    {
+      "ref": "8:5-7",
+      "label": "The seal of love",
+      "level": 1
+    }
+  ],
+  "christInBook": "The church has long read this book as a picture of the love between Christ and his people, though it is first of all a celebration of human love in marriage. The New Testament calls the church the bride of Christ (Ephesians 5:31-32).",
+  "howToRead": "Read the book as a collection of lyrical scenes between a woman, a man, and a chorus of friends. Do not hurry. It is poetry about desire, and it teaches a right understanding of love, in the sense of “do not awaken love until it pleases” (2:7)."
+}

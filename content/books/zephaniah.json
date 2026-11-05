@@ -1,0 +1,71 @@
+{
+  "order": 36,
+  "name": "Zephaniah",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "The day of the Lord and a restored remnant",
+  "author": "Zephaniah.",
+  "date": "Probably about 640 to 620 BC, in the reign of Josiah.",
+  "setting": "Judah faces judgment, with a call to seek the Lord.",
+  "genre": "Prophecy.",
+  "theme": "God judges the proud and gathers the humble, rejoicing over them.",
+  "keyVerse": "Zephaniah 3:17",
+  "outline": [
+    {
+      "ref": "1:1-2:3",
+      "label": "Judgment and a call to seek the LORD",
+      "level": 0
+    },
+    {
+      "ref": "1:1-6",
+      "label": "Judgment on the whole earth",
+      "level": 1
+    },
+    {
+      "ref": "1:7-18",
+      "label": "The day of the LORD",
+      "level": 1
+    },
+    {
+      "ref": "2:1-3",
+      "label": "Seek the LORD",
+      "level": 1
+    },
+    {
+      "ref": "2:4-15",
+      "label": "Judgment on the nations",
+      "level": 0
+    },
+    {
+      "ref": "2:4-7",
+      "label": "Philistia",
+      "level": 1
+    },
+    {
+      "ref": "2:8-15",
+      "label": "Moab, Ammon, Cush, and Assyria",
+      "level": 1
+    },
+    {
+      "ref": "3:1-20",
+      "label": "Jerusalem and restoration",
+      "level": 0
+    },
+    {
+      "ref": "3:1-8",
+      "label": "The rebellious city",
+      "level": 1
+    },
+    {
+      "ref": "3:9-13",
+      "label": "A purified remnant",
+      "level": 1
+    },
+    {
+      "ref": "3:14-20",
+      "label": "Sing, O daughter of Zion",
+      "level": 1
+    }
+  ],
+  "christInBook": "The promise that the LORD will rejoice over his people with singing (3:17) is realized in Christ, who gathers the scattered and rejoices over them.",
+  "howToRead": "Zephaniah begins with total judgment and ends with joyful singing. Notice how “the day of the LORD” is dark for the proud and bright for the humble."
+}

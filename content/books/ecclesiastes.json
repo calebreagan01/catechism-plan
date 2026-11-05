@@ -1,0 +1,81 @@
+{
+  "order": 21,
+  "name": "Ecclesiastes",
+  "section": "Old Testament: Wisdom and Poetry",
+  "tagline": "Life under the sun",
+  "author": "The speaker calls himself “the Preacher” (Qoheleth). Tradition connects the book with Solomon.",
+  "date": "Date is uncertain, with traditional dating in the 900s BC.",
+  "setting": "A teacher reflects on work, pleasure, wealth, and death.",
+  "genre": "Wisdom reflection.",
+  "theme": "Life without God is empty, but life received as his gift has meaning.",
+  "keyVerse": "Ecclesiastes 12:13",
+  "outline": [
+    {
+      "ref": "1:1-11",
+      "label": "The theme",
+      "level": 0
+    },
+    {
+      "ref": "1:1-3",
+      "label": "The Preacher and the question",
+      "level": 1
+    },
+    {
+      "ref": "1:12-2:26",
+      "label": "The search for meaning",
+      "level": 0
+    },
+    {
+      "ref": "1:12-18",
+      "label": "Wisdom",
+      "level": 1
+    },
+    {
+      "ref": "3:1-4:16",
+      "label": "Time and oppression",
+      "level": 0
+    },
+    {
+      "ref": "3:1-15",
+      "label": "A time for everything",
+      "level": 1
+    },
+    {
+      "ref": "5:1-7:29",
+      "label": "Living wisely",
+      "level": 0
+    },
+    {
+      "ref": "5:1-7",
+      "label": "Worship",
+      "level": 1
+    },
+    {
+      "ref": "8:1-12:8",
+      "label": "Uncertainty and death",
+      "level": 0
+    },
+    {
+      "ref": "8:1-17",
+      "label": "Authority and what we cannot understand",
+      "level": 1
+    },
+    {
+      "ref": "12:9-14",
+      "label": "Conclusion",
+      "level": 0
+    },
+    {
+      "ref": "12:9-12",
+      "label": "The words of the wise",
+      "level": 1
+    },
+    {
+      "ref": "12:13-14",
+      "label": "Fear God and keep his commandments",
+      "level": 1
+    }
+  ],
+  "christInBook": "Qoheleth searches for meaning under the sun and finds that nothing under the sun satisfies. The book prepares for the one who comes from above the sun, Jesus Christ, who gives meaning that does not fade.",
+  "howToRead": "The refrain “vanity” means breath or vapor. Read the book as one argument, not as a list of separate sayings. The ending tells you how to read it: fear God and keep his commandments."
+}

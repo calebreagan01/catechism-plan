@@ -1,0 +1,76 @@
+{
+  "order": 27,
+  "name": "Daniel",
+  "section": "Old Testament: The Major Prophets",
+  "tagline": "Faithful in a foreign land",
+  "author": "Traditionally Daniel. Some scholars date the book later, so readers differ on its date.",
+  "date": "Set in the 500s BC during the exile and Persian rule.",
+  "setting": "Jewish exiles serve in Babylonian and Persian courts.",
+  "genre": "Narrative and apocalyptic visions.",
+  "theme": "God rules over every empire, and his kingdom will outlast them all.",
+  "keyVerse": "Daniel 7:13-14",
+  "outline": [
+    {
+      "ref": "1:1-21",
+      "label": "Daniel and his friends in Babylon",
+      "level": 0
+    },
+    {
+      "ref": "2:1-49",
+      "label": "Nebuchadnezzar’s dream",
+      "level": 0
+    },
+    {
+      "ref": "3:1-30",
+      "label": "The fiery furnace",
+      "level": 0
+    },
+    {
+      "ref": "3:1-18",
+      "label": "The golden image and the refusal",
+      "level": 1
+    },
+    {
+      "ref": "4:1-37",
+      "label": "Nebuchadnezzar humbled",
+      "level": 0
+    },
+    {
+      "ref": "4:1-27",
+      "label": "The dream of the tree",
+      "level": 1
+    },
+    {
+      "ref": "5:1-31",
+      "label": "The writing on the wall",
+      "level": 0
+    },
+    {
+      "ref": "6:1-28",
+      "label": "Daniel in the lions’ den",
+      "level": 0
+    },
+    {
+      "ref": "7:1-28",
+      "label": "Four beasts and the Son of Man",
+      "level": 0
+    },
+    {
+      "ref": "7:1-14",
+      "label": "The vision",
+      "level": 1
+    },
+    {
+      "ref": "8:1-12:13",
+      "label": "Visions of the future",
+      "level": 0
+    },
+    {
+      "ref": "8:1-27",
+      "label": "The ram and the goat",
+      "level": 1
+    }
+  ],
+  "christInBook": "The fourth man in the fiery furnace and the “son of man” coming on the clouds (7:13-14) point to Christ. Jesus took the title Son of Man from Daniel and is the king whose kingdom will never end.",
+  "howToRead": "Daniel has two halves: stories (1-6) and visions (7-12). The stories show faithfulness in a foreign court. The visions show God ruling over history. Note that the book is written partly in Hebrew and partly in Aramaic."
+}

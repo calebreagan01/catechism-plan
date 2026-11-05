@@ -1,0 +1,76 @@
+{
+  "order": 11,
+  "name": "1 Kings",
+  "section": "Old Testament: History",
+  "tagline": "Glory and division",
+  "author": "Not named in the text. Jewish tradition names Jeremiah.",
+  "date": "Covers about 970 to 850 BC. Compiled during or after the Babylonian exile.",
+  "setting": "Solomon builds the temple, the kingdom splits, and the prophets confront kings.",
+  "genre": "Historical narrative.",
+  "theme": "Faithfulness to the covenant brings blessing and idolatry brings decline.",
+  "keyVerse": "1 Kings 8:23",
+  "outline": [
+    {
+      "ref": "1:1-2:46",
+      "label": "Solomon takes the throne",
+      "level": 0
+    },
+    {
+      "ref": "1:1-53",
+      "label": "Adonijah’s attempt and Solomon anointed",
+      "level": 1
+    },
+    {
+      "ref": "2:1-46",
+      "label": "David’s charge and Solomon’s consolidation",
+      "level": 1
+    },
+    {
+      "ref": "3:1-11:43",
+      "label": "Solomon’s reign",
+      "level": 0
+    },
+    {
+      "ref": "3:1-28",
+      "label": "The request for wisdom",
+      "level": 1
+    },
+    {
+      "ref": "4:1-34",
+      "label": "Solomon’s officials and wealth",
+      "level": 1
+    },
+    {
+      "ref": "12:1-16:34",
+      "label": "The divided kingdom",
+      "level": 0
+    },
+    {
+      "ref": "12:1-33",
+      "label": "Rehoboam and Jeroboam",
+      "level": 1
+    },
+    {
+      "ref": "13:1-14:20",
+      "label": "The man of God from Judah",
+      "level": 1
+    },
+    {
+      "ref": "17:1-22:53",
+      "label": "Elijah and the house of Ahab",
+      "level": 0
+    },
+    {
+      "ref": "17:1-24",
+      "label": "The drought, the widow, and her son",
+      "level": 1
+    },
+    {
+      "ref": "18:1-46",
+      "label": "Mount Carmel",
+      "level": 1
+    }
+  ],
+  "christInBook": "Solomon builds a temple, yet even he says that heaven cannot contain God (8:27). Jesus is greater than Solomon (Matthew 12:42), he is the true temple (John 2:19-21), and Elijah’s ministry prepares for John the Baptist and Jesus.",
+  "howToRead": "Notice how the narrator evaluates each king by one test: did he follow the LORD wholeheartedly as David did? Watch also how the prophets stand against power."
+}

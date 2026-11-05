@@ -1,0 +1,71 @@
+{
+  "order": 14,
+  "name": "2 Chronicles",
+  "section": "Old Testament: History",
+  "tagline": "The kings of Judah and the temple",
+  "author": "Not named in the text. Tradition names Ezra.",
+  "date": "Written after the exile.",
+  "setting": "Tells the story of Solomon and the kings of Judah, ending with the exile and a call to return.",
+  "genre": "Historical narrative.",
+  "theme": "When the king and people seek the Lord, they find him, and when they forsake him they fall.",
+  "keyVerse": "2 Chronicles 7:14",
+  "outline": [
+    {
+      "ref": "1:1-9:31",
+      "label": "Solomon and the temple",
+      "level": 0
+    },
+    {
+      "ref": "1:1-17",
+      "label": "Solomon’s request for wisdom",
+      "level": 1
+    },
+    {
+      "ref": "10:1-28:27",
+      "label": "The kings of Judah",
+      "level": 0
+    },
+    {
+      "ref": "10:1-12:16",
+      "label": "Rehoboam and the division",
+      "level": 1
+    },
+    {
+      "ref": "13:1-16:14",
+      "label": "Abijah and Asa",
+      "level": 1
+    },
+    {
+      "ref": "29:1-32:33",
+      "label": "Hezekiah’s revival",
+      "level": 0
+    },
+    {
+      "ref": "29:1-31:21",
+      "label": "The temple cleansed and Passover kept",
+      "level": 1
+    },
+    {
+      "ref": "32:1-33",
+      "label": "Sennacherib’s invasion",
+      "level": 1
+    },
+    {
+      "ref": "33:1-36:23",
+      "label": "The last kings and the exile",
+      "level": 0
+    },
+    {
+      "ref": "33:1-25",
+      "label": "Manasseh and Amon",
+      "level": 1
+    },
+    {
+      "ref": "34:1-35:27",
+      "label": "Josiah’s reform and death",
+      "level": 1
+    }
+  ],
+  "christInBook": "Solomon’s temple foreshadows the true temple, Christ himself. The book ends with Cyrus’s decree sending the exiles home, which points ahead to the greater return from exile that the prophets promised.",
+  "howToRead": "The Chronicler emphasizes that when kings seek the LORD, they prosper, and when they forsake him, they fall. Watch the stress on repentance and revival, especially under Hezekiah and Josiah."
+}

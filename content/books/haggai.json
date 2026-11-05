@@ -1,0 +1,66 @@
+{
+  "order": 37,
+  "name": "Haggai",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "Rebuild the house",
+  "author": "Haggai.",
+  "date": "About 520 BC.",
+  "setting": "Returned exiles have neglected the temple.",
+  "genre": "Prophecy.",
+  "theme": "Put God first, and he will be with his people.",
+  "keyVerse": "Haggai 2:9",
+  "outline": [
+    {
+      "ref": "1:1-15",
+      "label": "The first message: rebuild the temple",
+      "level": 0
+    },
+    {
+      "ref": "1:1-11",
+      "label": "Consider your ways",
+      "level": 1
+    },
+    {
+      "ref": "1:12-15",
+      "label": "The people obey",
+      "level": 1
+    },
+    {
+      "ref": "2:1-9",
+      "label": "The second message: the coming glory",
+      "level": 0
+    },
+    {
+      "ref": "2:1-5",
+      "label": "Take courage",
+      "level": 1
+    },
+    {
+      "ref": "2:6-9",
+      "label": "The latter glory",
+      "level": 1
+    },
+    {
+      "ref": "2:10-19",
+      "label": "The third message: blessing",
+      "level": 0
+    },
+    {
+      "ref": "2:10-19",
+      "label": "From this day I will bless you",
+      "level": 1
+    },
+    {
+      "ref": "2:20-23",
+      "label": "The fourth message: Zerubbabel",
+      "level": 0
+    },
+    {
+      "ref": "2:20-23",
+      "label": "The LORD’s signet ring",
+      "level": 1
+    }
+  ],
+  "christInBook": "The promise that the glory of the latter house will be greater than the former (2:9) is fulfilled when Christ comes to the temple. Zerubbabel, a descendant of David, is a sign of the coming king.",
+  "howToRead": "Haggai has four short messages, each dated precisely. Watch how God moves the people from self-concern to obedience and from discouragement to hope."
+}

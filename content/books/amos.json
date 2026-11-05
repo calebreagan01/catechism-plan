@@ -1,0 +1,96 @@
+{
+  "order": 30,
+  "name": "Amos",
+  "section": "Old Testament: The Minor Prophets",
+  "tagline": "Justice rolling like water",
+  "author": "Amos, a herdsman from Tekoa.",
+  "date": "About 760 to 750 BC.",
+  "setting": "Prosperous Israel ignores the poor and worships falsely.",
+  "genre": "Prophecy.",
+  "theme": "God demands justice and true worship, and promises to restore David’s house.",
+  "keyVerse": "Amos 5:24",
+  "outline": [
+    {
+      "ref": "1:1-2:16",
+      "label": "Judgment on the nations and Israel",
+      "level": 0
+    },
+    {
+      "ref": "1:1-2",
+      "label": "The LORD roars",
+      "level": 1
+    },
+    {
+      "ref": "1:3-2:5",
+      "label": "Syria, Philistia, Tyre, Edom, Ammon, Moab, and Judah",
+      "level": 1
+    },
+    {
+      "ref": "2:6-16",
+      "label": "Israel",
+      "level": 1
+    },
+    {
+      "ref": "3:1-6:14",
+      "label": "Sermons against Israel",
+      "level": 0
+    },
+    {
+      "ref": "3:1-15",
+      "label": "Chosen and accountable",
+      "level": 1
+    },
+    {
+      "ref": "4:1-13",
+      "label": "Failure to return",
+      "level": 1
+    },
+    {
+      "ref": "5:1-27",
+      "label": "A lament and a call to seek the LORD",
+      "level": 1
+    },
+    {
+      "ref": "6:1-14",
+      "label": "Woe to those at ease",
+      "level": 1
+    },
+    {
+      "ref": "7:1-9:10",
+      "label": "Visions of judgment",
+      "level": 0
+    },
+    {
+      "ref": "7:1-9",
+      "label": "Locusts, fire, and the plumb line",
+      "level": 1
+    },
+    {
+      "ref": "7:10-17",
+      "label": "Amos and Amaziah",
+      "level": 1
+    },
+    {
+      "ref": "8:1-14",
+      "label": "The basket of summer fruit",
+      "level": 1
+    },
+    {
+      "ref": "9:1-10",
+      "label": "The LORD beside the altar",
+      "level": 1
+    },
+    {
+      "ref": "9:11-15",
+      "label": "Restoration",
+      "level": 0
+    },
+    {
+      "ref": "9:11-15",
+      "label": "David’s tent rebuilt",
+      "level": 1
+    }
+  ],
+  "christInBook": "Amos looks forward to restoring David’s fallen tent (9:11-12), which James quotes at the council in Jerusalem to explain the Gentiles’ inclusion (Acts 15:15-18). Christ is the one who fulfills justice.",
+  "howToRead": "Amos is a shepherd from Judah speaking to the north. Notice how he begins with judgment on the neighbors and then turns to Israel itself. The book ends in hope."
+}

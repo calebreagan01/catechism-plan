@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import { units, YEAR_NAMES, u, stats, downloadFor } from '../../lib/data.js';
+let last = 0;
+const weeks = (x) => { const a = Math.ceil(x.firstDay / 7), b = Math.ceil(x.lastDay / 7); return `${a}-${b}`; };
+---
+<Base title="The Plan" description="All 25 units with their days, weeks, and anchor verses.">
+  <div class="wrap">
+    <div class="page-head"><div class="label">Reference</div><h1>The Plan at a Glance</h1><p class="lede">Twenty-five units across about two and a half years</p><div class="orn">&#10086;</div></div>
+    <div class="narrow prose">
+      <p>The plan runs {stats.total} days, which is {stats.weeks - 1} full weeks and a final partial week. Week 1 begins on a Sunday, and every Saturday is a Sabbath rest day. Weeks and days are numbered continuously from the first day. Of the {stats.total} days, {stats.reading} are readings, {stats.psalm} are psalms, and {stats.doctrinal} are doctrinal pauses. The rest are Sabbaths and unit reviews.</p>
+    </div>
+    <div class="scroll-x" style="margin-top:1.5rem">
+      <table class="plain">
+        <thead><tr><th>Unit</th><th>Title</th><th>Days</th><th>Weeks</th><th>Anchor verse</th><th></th></tr></thead>
+        <tbody>
+          {units.map((x) => {
+            const head = x.year !== last; last = x.year;
+            const pdf = downloadFor('unit', x.id);
+            return (<>
+              {head && <tr class="yr"><td colspan="6">Year {x.year}: {YEAR_NAMES[x.year]}</td></tr>}
+              <tr>
+                <td class="num">{x.id}</td>
+                <td><a href={u(`unit/${x.id}/`)} style="font-weight:600">{x.title}</a><div class="muted" style="font-style:italic;font-size:.95rem">{x.subtitle}</div></td>
+                <td class="num">{x.firstDay}-{x.lastDay}</td><td>{weeks(x)}</td>
+                <td style="font-size:.95rem"><strong>{x.memoryRef}.</strong> <em>&#8220;{x.memoryText}&#8221;</em></td>
+                <td>{pdf && <a class="btn" style="min-height:2rem;padding:0 .8rem" href={u(pdf.file)} download>PDF</a>}</td>
+              </tr>
+            </>);
+          })}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,61 @@
+{
+  "order": 1,
+  "name": "Genesis",
+  "section": "Law: The Pentateuch",
+  "tagline": "The book of beginnings",
+  "author": "Traditionally Moses.",
+  "date": "Traditionally linked to the time of Moses, about 1400 to 1200 BC. The events span from creation to about 1800 BC.",
+  "setting": "Written for Israel before entering the promised land. It tells where the world, sin, and the chosen family came from.",
+  "genre": "Narrative, with genealogies and poetry.",
+  "theme": "God creates a good world, sin breaks it, and God begins a plan to bless all nations through Abraham’s family.",
+  "keyVerse": "Genesis 12:2-3",
+  "outline": [
+    {
+      "ref": "1:1-2:3",
+      "label": "Creation in six days and the Sabbath",
+      "level": 0
+    },
+    {
+      "ref": "2:4-4:26",
+      "label": "Eden, the fall, and the first family",
+      "level": 0
+    },
+    {
+      "ref": "5:1-6:8",
+      "label": "From Adam to Noah",
+      "level": 0
+    },
+    {
+      "ref": "6:9-9:29",
+      "label": "Noah and the flood",
+      "level": 0
+    },
+    {
+      "ref": "10:1-11:26",
+      "label": "The nations and Babel",
+      "level": 0
+    },
+    {
+      "ref": "11:27-25:18",
+      "label": "Abraham",
+      "level": 0
+    },
+    {
+      "ref": "25:19-28:9",
+      "label": "Isaac, Jacob, and Esau",
+      "level": 0
+    },
+    {
+      "ref": "28:10-36:43",
+      "label": "Jacob",
+      "level": 0
+    },
+    {
+      "ref": "37:1-50:26",
+      "label": "Joseph and the family in Egypt",
+      "level": 0
+    }
+  ],
+  "christInBook": "Genesis plants the promise of an offspring who will crush the serpent (3:15) and bless all nations through Abraham’s line (12:3). Judah’s line carries the scepter (49:10), and Isaac, Joseph, and the ram caught in the thicket all look ahead to the sacrifice and rescue God would provide.",
+  "howToRead": "Read Genesis as the foundation for everything after it. Watch for repeated patterns: a promise, a threat to the promise, and God’s faithful rescue. The genealogies are not filler. They trace the line of promise from Adam through Abraham to the twelve tribes."
+}

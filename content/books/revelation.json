@@ -1,0 +1,81 @@
+{
+  "order": 66,
+  "name": "Revelation",
+  "section": "New Testament: General Letters and Revelation",
+  "tagline": "The unveiling of Jesus Christ",
+  "author": "John, traditionally the apostle John.",
+  "date": "Often dated about AD 95, though some propose the 60s.",
+  "setting": "Written to seven churches in Asia Minor facing pressure.",
+  "genre": "Apocalyptic prophecy and letter.",
+  "theme": "Christ wins, evil is judged, and God makes all things new.",
+  "keyVerse": "Revelation 21:5",
+  "outline": [
+    {
+      "ref": "1:1-20",
+      "label": "Vision of Christ",
+      "level": 0
+    },
+    {
+      "ref": "1:1-8",
+      "label": "Prologue and greeting",
+      "level": 1
+    },
+    {
+      "ref": "2:1-3:22",
+      "label": "Letters to seven churches",
+      "level": 0
+    },
+    {
+      "ref": "2:1-3:6",
+      "label": "Ephesus to Sardis",
+      "level": 1
+    },
+    {
+      "ref": "4:1-5:14",
+      "label": "The throne and the Lamb",
+      "level": 0
+    },
+    {
+      "ref": "4:1-11",
+      "label": "The throne in heaven",
+      "level": 1
+    },
+    {
+      "ref": "6:1-16:21",
+      "label": "Seals, trumpets, and bowls",
+      "level": 0
+    },
+    {
+      "ref": "6:1-8:5",
+      "label": "The seven seals",
+      "level": 1
+    },
+    {
+      "ref": "17:1-20:15",
+      "label": "Babylon and the final judgment",
+      "level": 0
+    },
+    {
+      "ref": "17:1-19:5",
+      "label": "The fall of Babylon",
+      "level": 1
+    },
+    {
+      "ref": "21:1-22:21",
+      "label": "The new heaven and new earth",
+      "level": 0
+    },
+    {
+      "ref": "21:1-8",
+      "label": "The new Jerusalem",
+      "level": 1
+    },
+    {
+      "ref": "21:9-22:5",
+      "label": "The city described",
+      "level": 1
+    }
+  ],
+  "christInBook": "Revelation is the unveiling of Jesus Christ (1:1). He is the first and the last, the lamb who was slain and is worthy, the faithful and true rider, and the bridegroom who returns for his bride.",
+  "howToRead": "Revelation is full of symbols, and most of them come from the Old Testament. Read for the big picture: Christ reigns, the church is called to faithful witness, evil is judged, and God makes all things new."
+}
